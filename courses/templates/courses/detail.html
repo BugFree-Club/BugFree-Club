@@ -1,0 +1,84 @@
+{% extends 'courses/base.html' %}
+{% block content %}
+    <h2>课程详情</h2>
+    <img src="{{ course.image.url }}" alt="课程图片">
+    <p>课程名称：{{ course.name }}</p>
+    <p>开始时间：{{ course.add_time }}</p>
+    <p>课程难度：{{ course.degree }}</p>
+    <p>已经有{{ course.students }}人参与</p>
+    <p>点击数：{{ course.click_nums }}</p>
+    <p>收藏数：{{ course.fav_nums }}</p>
+    <p>课程简介：{{ course.description }}</p>
+        <a class="join-course" href=""><h4>加入此课程</h4> </a>
+    <p>详细信息：{{ course.detail }}</p>
+    <br>
+    <h3>章节信息：</h3>
+    {%  if lesson_list_future %}
+        <h4>最新活动：</h4>
+    {% for lesson in lesson_list_future %}
+        <br>
+        <p>活动名称：{{ lesson.name }}</p>
+        <p>开始时间：{{ lesson.start_time }}</p>
+        <p>讨论地点：{{ lesson.classroom }}</p>
+        <p>已有{{ lesson.stu_num}}人报名</p>
+        <a href="" onclick="join_lesson({{ lesson.id }}) ">报名</a>
+        <br>
+    {% endfor %}
+        {% else %}
+        <br>
+        <p>暂无</p>
+        <br>
+    {% endif %}
+{% if lesson_list_history %}
+        <h4>往期活动：</h4>
+
+     {% for lesson in lesson_list_history %}
+        <br>
+
+
+        <p>活动名称：{{ lesson.name }}</p>
+        <p>开始时间：{{ lesson.start_time }}</p>
+        <p>讨论地点：{{ lesson.classroom }}</p>
+        <p>已有{{ lesson.stu_num}}人报名</p>
+        <a href=""  onclick="alert('活动已过期')">报名</a>
+        <br>
+    {% endfor %}
+
+    {% else %}
+    <h4>暂时没有活动</h4>
+    {% endif %}
+    <br>
+    <h4>负责人信息</h4>
+    <img src="{{ course.teacher.photo.url }}" alt="负责人照片" width="auto" height="100px">
+    <p>姓名：<a href="{% url 'user_info' course.teacher.id %}">{{ course.teacher }}</a></p>
+    <p>当前年级：{{ course.teacher.edu_bak }}</p>
+    <p>点击量：{{ course.teacher.click_num }}</p>
+    <p></p>
+    <script>
+        $.ajaxSetup({
+            data: {csrfmiddlewaretoken: '{{ csrf_token }}' }
+        });
+        $('.join-course').click(function () {
+            $.ajax({
+                url:'course_join_ajax',
+                type:'POST',
+                data:{'user_id':'{{ user.id }}'},
+                success:function (data) {
+                    alert(data.data)
+                }
+            })
+        });
+        function join_lesson(lesson_id) {
+            $.ajax({
+                url:'lesson_join_ajax',
+                type:'POST',
+                data:{'user_id':'{{ user.id }}',
+                      'lesson_id':lesson_id
+                },
+                success:function (data) {
+                    alert(data.data)
+                }
+            })
+        }
+    </script>
+{% endblock %}

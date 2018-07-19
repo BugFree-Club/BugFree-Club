@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
+import sys
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -25,7 +26,7 @@ SECRET_KEY = 'd(##2!7&1^$^yg&b0p4ul(%acjr16a#y@b)$n!hi8^2*_+a(+s'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,7 +38,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'users',
+    'courses',
+    'operations',
+    'xadmin',
+    'crispy_forms',
+    'manage_site',
 ]
+sys.path.insert(0,os.path.join(BASE_DIR,'extra_apps'))
+AUTH_USER_MODEL = 'users.UserProfile'
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -74,10 +84,17 @@ WSGI_APPLICATION = 'FITA.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
+
+#TODO：上线版本的sql密码需要改
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'FITA_WEB',
+        'USER': 'root',
+        'PASSWORD': 'nvzhuangdalao',
+        'HOST': '127.0.0.1',
+        'OPTIONS': {'init_command': 'SET sql_mode="STRICT_TRANS_TABLES" '},
+        'AUTOCOMMIT': True,
     }
 }
 
@@ -104,18 +121,63 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
-
+LANGUAGE_CODE = 'zh-hans'
+TIME_ZONE = 'Asia/Shanghai'
 USE_I18N = True
-
 USE_L10N = True
+USE_TZ = False
 
-USE_TZ = True
 
+LOGIN_URL = '/users/login/'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+
+'''学院选择'''
+DEP_CHOICE =(
+    ('z','未填'),
+    ('a','安全科学与工程学院'),('b','环境科学与工程学院'),('c','材料科学与工程学院'),('d','化工学院'),
+    ('e','化学与分子工程学院'),('f','电气工程与控制科学学院'),('g','机械与动力工程学院'),('h','能源科学与工程学院'),
+    ('i','药学院'),('j','建筑学院'),('k','艺术设计学院'),('l','经济与管理学院'),('m','法学院'),('n','马克思主义学院'),
+    ('o','外国语言文学学院'),('p','体育部'),('q','生物与制药工程学院'),('r','食品与轻工学院'),('s','计算机科学与技术学院'),
+    ('t','数理科学学院'),('u','测绘科学与技术学院'),('v','城市建设学院'),('w','交通运输工程学院'),('x','土木工程学院')
+)
+
+
+'''省份选择'''
+PROVINCE=(
+('wt','未填'),
+('bj','北京'),('tj','天津'),('sh','上海'),('cq','重庆'),
+('hb','河北'),('sx','山西'),('ln','辽宁'),('jl','吉林'),
+('hlj','黑龙江'),('js','江苏'),('zj','浙江'),('ah','安徽'),
+('fj','福建'),('jx','江西'),('sd','山东'),('hn','河南'),
+('hb','湖北'),('hn','湖南'),('gd','广东'),('hn','海南'),
+('sc','四川'),('gz','贵州'),('yn','云南'),('sx','陕西'),
+('gs','甘肃'),('qh','青海'),('tw','台湾'),('nmg','内蒙古'),
+('gx','广西'),('xz','西藏'),('nx','宁夏'),('xj','新疆'),
+('xg','香港'),('am','澳门'))
+
+'''站点名称'''   #TODO:站点域名设置
+COMMUNITY_NAME = 'FITA'
+COMMUNITY_DOMAIN = '127.0.0.1:8000'
+
+
+'''找回密码模块设置'''
+#测试用例
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+#部署
+EMAIL_HOST = "smtp.sina.com"  # 邮箱客户端SMTP服务器的地址
+EMAIL_PORT = 25
+EMAIL_HOST_USER = "社团邮箱@sina.com"
+EMAIL_HOST_PASSWORD = "密码"
+EMAIL_USE_TLS = False
+EMAIL_FROM = "社团邮箱@sina.com"

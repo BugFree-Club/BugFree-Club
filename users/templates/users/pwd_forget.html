@@ -1,0 +1,56 @@
+{% extends 'users/base.html' %}
+{% block title %}忘记密码{% endblock %}
+
+
+{% block user_info %}
+ <style>
+        .errorlist {
+            color: red;
+        }
+    </style>
+<div class="flex-center">
+    <div class="container">
+        <div class="flex-center">
+            <div class="unit-1-2 unit-1-on-mobile">
+                <h3>注册</h3>
+                <form id="forget" method="post">
+                    {% csrf_token %}
+                    {{ email_form.non_field_errors }}
+                    {% for field in email_form %}
+                        {{ field.label_tag }}
+                        {{ field }}
+                        {{ field.errors }}
+                        {% if field.help_text %}
+                            <p class="help text-small text-muted">{{ field.help_text|safe }}</p>
+                        {% endif %}
+                    {% endfor %}
+                    {% if err_msg %}
+                        <p class="errorlist">{{ err_msg }}</p>
+                    {% endif %}
+                    <button id="f-btn" type="button" class="btn btn-primary btn-block">发送验证码</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+   <script>
+        {#修改个人信息#}
+        $.ajaxSetup({
+            data: {csrfmiddlewaretoken: '{{ csrf_token }}' }
+        });//切记django的ajax使用post需要加上这个参数 否则csrf验证过不了
+        $("#f-btn").click(function () {
+            $.ajax({
+                type: "POST",
+                url:'{% url 'forget' %}',
+                data:$('#forget').serialize(),
+                error: function(request) {
+                 alert('服务器正忙，请稍后再试');
+                },
+                success: function(data) {
+                    alert(data.data);
+                }
+             });
+         });
+        {#修改密码#}
+   </script>
+{% endblock %}
