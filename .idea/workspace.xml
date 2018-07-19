@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68fbf983-7e51-485d-8502-cfce3e93d5c8" name="Default" comment="项目雏形">
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/courses/2018/07/2973B960812360946CD9CA2E46C2FA30.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/courses/2018/07/67F3682ECCE2676FE66B48D39973D6E0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/courses/2018/07/67F3682ECCE2676FE66B48D39973D6E0_GXTcl22.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/courses/2018/07/AEC4A0D10D1B6EE2311B45150E8B15FB.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/courses/2018/07/AEC4A0D10D1B6EE2311B45150E8B15FB_bI44MoT.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/courses/2018/07/AEC4A0D10D1B6EE2311B45150E8B15FB_htHgcmk.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/courses/2018/07/DABE518DDE5510429DA90DFED63A18A7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/courses/2018/07/EB7E7C37AB8C4A0DFDB0C4BAF154620A.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/courses/2018/07/EB7E7C37AB8C4A0DFDB0C4BAF154620A_Kydg4Xp.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/courses/2018/07/EB7E7C37AB8C4A0DFDB0C4BAF154620A_sMPM33O.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +22,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/users/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="118" column="33" lean-forward="false" selection-start-line="118" selection-start-column="33" selection-end-line="118" selection-end-column="33" />
+            <state relative-caret-position="106">
+              <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
               <folding>
                 <element signature="e#128#139#0" expanded="true" />
               </folding>
@@ -91,7 +81,7 @@
         <entry file="file://E:/FITA/venv/Lib/site-packages/django/core/paginator.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-85">
-              <caret line="52" column="17" lean-forward="true" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+              <caret line="52" column="17" lean-forward="false" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -133,7 +123,7 @@
         <entry file="file://$PROJECT_DIR$/operations/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+              <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -451,7 +441,21 @@
       <option name="project" value="LOCAL" />
       <updated>1531990293853</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="项目雏形">
+      <created>1531990382555</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1531990382555</updated>
+    </task>
+    <task id="LOCAL-00008" summary="项目雏形">
+      <created>1531990458219</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1531990458219</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -500,6 +504,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -803,7 +833,7 @@
         <state relative-caret-position="411">
           <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
           <folding>
-            <element signature="e#128#141#0" expanded="true" />
+            <element signature="e#128#141#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -811,7 +841,7 @@
     <entry file="file://$PROJECT_DIR$/operations/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -855,7 +885,7 @@
     <entry file="file://E:/FITA/venv/Lib/site-packages/django/core/paginator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-85">
-          <caret line="52" column="17" lean-forward="true" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+          <caret line="52" column="17" lean-forward="false" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -900,8 +930,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="118" column="33" lean-forward="false" selection-start-line="118" selection-start-column="33" selection-end-line="118" selection-end-column="33" />
+        <state relative-caret-position="106">
+          <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
           <folding>
             <element signature="e#128#139#0" expanded="true" />
           </folding>
