@@ -2,149 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68fbf983-7e51-485d-8502-cfce3e93d5c8" name="Default" comment="项目雏形">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/admin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/apps.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/migrations/0001_initial.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/migrations/0002_auto_20180706_2336.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/migrations/0003_course_teacher.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/migrations/0004_auto_20180717_2311.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/migrations/0005_auto_20180719_1452.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/migrations/0006_auto_20180719_1540.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/migrations/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/common/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/common/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/common/jquery-3.3.1.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/templates/courses/base.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/templates/courses/detail.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/tests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/urls.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/courses/views.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extra_apps/xadmin/migrations/0001_initial.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/admin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/apps.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/form.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/migrations/0001_initial.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/migrations/0002_indexcoremembers_indexcourse_indexhonorwall_indeximgshow.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/migrations/0003_auto_20180715_1338.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/migrations/0004_auto_20180715_1404.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/migrations/0005_auto_20180717_2311.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/migrations/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/css/magnific-popup.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/css/slider.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/arrow_btn.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/arrow_btnh.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/bg2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/cbg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/gd1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/gd2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/gd3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/gd4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/gd5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/gd6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/icon_1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/icon_2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/nav-icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/next.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/pic1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/pic2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/pic3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/pic4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/pop1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/pop2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/pop3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/pop4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/pop5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/pop6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/prev.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/puls.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/round1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/round2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/round3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/round4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/sb1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/sb2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/sb3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/sb4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/sb5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/sb6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/search.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/share_icon1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/slider.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/spriteimg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/text_img.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/images/top_move.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/js/easing.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/js/jquery.cslider.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/js/jquery.magnific-popup.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/js/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/js/jquery.mixitup.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/js/jquery.wmuSlider.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/js/menu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/js/modernizr.custom.28468.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/js/move-top.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/templates/manage_site/404.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/templates/manage_site/bloginner.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/templates/manage_site/blogsingle.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/templates/manage_site/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/tests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/urls.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/views.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/default.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/teachers/default.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/operations/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/operations/admin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/operations/apps.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/operations/form.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/operations/migrations/0001_initial.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/operations/migrations/0002_auto_20180717_2311.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/operations/migrations/0003_userlesson.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/operations/migrations/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/operations/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/operations/tests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/operations/urls.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/operations/views.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/adminx.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/apps.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/form.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0002_remove_userprofile_birthday.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0003_auto_20180707_0010.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0004_remove_userprofile_nick_name.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0005_auto_20180708_0124.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0006_auto_20180717_2311.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0007_auto_20180718_0013.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0008_auto_20180718_1331.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0009_auto_20180718_1348.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/templates/users/base.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/templates/users/login.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/templates/users/pwd_forget.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/templates/users/pwd_reset.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/templates/users/register.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/templates/users/user_center.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/templates/users/user_info.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/tests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/urls.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/utils.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/users/views.py" />
-      <change beforePath="$PROJECT_DIR$/FITA/settings.py" afterPath="$PROJECT_DIR$/FITA/settings.py" />
-      <change beforePath="$PROJECT_DIR$/FITA/urls.py" afterPath="$PROJECT_DIR$/FITA/urls.py" />
-      <change beforePath="$PROJECT_DIR$/FITA/wsgi.py" afterPath="$PROJECT_DIR$/FITA/wsgi.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/courses/2018/07/2973B960812360946CD9CA2E46C2FA30.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/courses/2018/07/67F3682ECCE2676FE66B48D39973D6E0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/courses/2018/07/67F3682ECCE2676FE66B48D39973D6E0_GXTcl22.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/courses/2018/07/AEC4A0D10D1B6EE2311B45150E8B15FB.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/courses/2018/07/AEC4A0D10D1B6EE2311B45150E8B15FB_bI44MoT.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/courses/2018/07/AEC4A0D10D1B6EE2311B45150E8B15FB_htHgcmk.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/courses/2018/07/DABE518DDE5510429DA90DFED63A18A7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/courses/2018/07/EB7E7C37AB8C4A0DFDB0C4BAF154620A.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/courses/2018/07/EB7E7C37AB8C4A0DFDB0C4BAF154620A_Kydg4Xp.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/courses/static/courses/2018/07/EB7E7C37AB8C4A0DFDB0C4BAF154620A_sMPM33O.jpg" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -562,7 +430,28 @@
       <option name="project" value="LOCAL" />
       <updated>1531989889624</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="项目雏形">
+      <created>1531990220730</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1531990220730</updated>
+    </task>
+    <task id="LOCAL-00005" summary="项目雏形">
+      <created>1531990281358</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1531990281358</updated>
+    </task>
+    <task id="LOCAL-00006" summary="项目雏形">
+      <created>1531990293853</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1531990293853</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
