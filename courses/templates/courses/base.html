@@ -1,0 +1,39 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FITA Courses</title>
+    <!-- Bootstrap -->
+{% block css %}
+    <link rel="stylesheet" href="{% static 'common/bootstrap.min.css' %}">
+{% endblock %}
+
+{% block js1 %}
+    <script src="{% static 'common/jquery-3.3.1.min.js' %}"></script>
+{% endblock %}
+
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    {% block content %}
+    {% endblock %}
+
+
+
+    {% block js %}
+
+        <!-- 加载 Bootstrap-->
+        <script src="{% static 'common/bootstrap.js' %}"></script>
+
+    {% endblock %}
+  </body>
+</html>

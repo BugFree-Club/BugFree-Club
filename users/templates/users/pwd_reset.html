@@ -1,0 +1,35 @@
+{% extends 'users/base.html' %}
+{% block title %}密码重设{% endblock %}
+
+
+{% block user_info %}
+ <style>
+        .errorlist {
+            color: red;
+        }
+    </style>
+<div class="flex-center">
+    <div class="container">
+        <div class="flex-center">
+            <div class="unit-1-2 unit-1-on-mobile">
+                <h3>注册</h3>
+                <form class="form" action="{% url 'reset' active_code %}" method="post">
+                    {% csrf_token %}
+                    {% for field in modify_form %}
+                        {{ field.label_tag }}
+                        {{ field }}
+                        {{ field.errors }}
+                        {% if field.help_text %}
+                            <p class="help text-small text-muted">{{ field.help_text|safe }}</p>
+                        {% endif %}
+                    {% endfor %}
+                    {% if err_msg %}
+                    <p class="errorlist">{{ err_msg }}</p>
+                    {% endif %}
+                    <button type="submit" class="btn btn-primary btn-block">确认修改</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
