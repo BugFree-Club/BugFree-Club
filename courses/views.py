@@ -78,7 +78,6 @@ class LessonJoin(LoginRequiredMixin, View):
         target_lesson = Lesson.objects.get(id=lesson_id)
         target_lesson.stu_num += 1
         target_lesson.save()
-
         UserCourse.objects.get_or_create(user=request.user, course_id=course_id)
 
         return HttpResponse('{"status":"success", "data":"报名成功"}', content_type='application/json')

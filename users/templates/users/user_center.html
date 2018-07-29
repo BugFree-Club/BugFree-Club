@@ -1,77 +1,219 @@
-{% extends 'users/base.html' %}
+{% extends 'manage_site/base.html' %}
+{% load static %}
 
-{% block user_info %}
-    <h2>个人信息</h2>
-    <p>用户名：{{ user_info }}</p>
-    <p>头像：</p><img src="{{ user_info.image.url }}" alt="用户头像" height="100px" width="auto">
-    <p>地址：{{ user_info.get_address_display|default:'未填' }}</p>
+
+{% block page_title %}
+    个人中心
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'users/css/users.css' %}">
+{% endblock %}
+
+{% block js %}
+    <script src="{% static 'users/js/users.js' %}"></script>
+{% endblock %}
+
+{% block body %}
+<section class="container">
+<div class="user-info">
+<div class="user-img ">
+    <a href="" data-toggle="modal" data-target="#changeImg"><img src="{{ user_info.image.url }}" alt="用户头像" style="width:96px;height: 96px" class="img-circle"></a>
+</div>
+    <div class="user-tab ">
+    <h3>{{ user_info.username }}</h3>
+    <p>{% if user_info.is_member %}您是社团成员{% endif %}</p>
+    <div class="line"></div>
     <p>邮箱：{{ user_info.email }}</p>
     <p>学院：{{ user_info.get_department_display }}</p>
+    <p>省份：{{ user_info.get_address_display|default:'未填' }}</p>
     <p>性别：{{ user_info.get_gender_display|default:'未填' }}</p>
-
-
-
     {% if user.id == user_info.id %}
-    <a href="">修改个人信息（弹窗ajax）</a>
-        <a href="{% url 'forget' %}">修改密码</a>
-        <a href="{% url 'logout' %}">注销用户</a>
-       <form id="user-form" enctype="multipart/form-data">
-                    {% csrf_token %}
-                    {{ user_info_form.non_field_errors }}
-                    {% for field in user_info_form %}
-                        {{ field.label_tag }}
-                        {{ field }}
-                        {{ field.errors }}
-                        {% if field.help_text %}
-                            <p class="help text-small text-muted">{{ field.help_text|safe }}</p>
-                        {% endif %}
-                    {% endfor %}
-                    {% if err_msg %}
-                        <p class="errorlist">{{ err_msg }}</p>
-                    {% endif %}
-                        <button id="info-button" type="button" class="btn btn-primary btn-block">提交</button>
-                </form>
+    <p><a href="{% url 'forget' %}" class="btn btn-default" role="button">修改密码</a>  <a href="" data-toggle="modal" data-target="#changeInfo" class="btn btn-default" role="button">修改个人信息</a></p>
+        <!-- 个人信息弹出框 -->
+        <div class="modal fade" id="changeInfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="changeInfo" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">修改个人信息</h4>
+              </div>
+              <div class="modal-body">
+                  <form class="form-group" id="user-form">
+                  {% csrf_token %}
+                      {% for field in user_info_form %}
+                          {{ field.label }}
+                          {{ field }}
+                          {{ field.help_text }}
+                      {% endfor %}
+                  </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">关闭</button>
+                <button id="info-button" type="button" class="btn btn-primary">保存</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 头像弹出框 -->
+        <div class="modal fade" id="changeImg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="changeInfo" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">修改个人信息</h4>
+              </div>
+              <div class="modal-body">
+                <div class="hovertreecontainer">
+                <div class="imageBox">
+                    <div class="thumbBox"></div>
+                    <div class="spinner" style="display: none">Loading...</div>
+                </div>
+                <div class="action">
+                    <div class="new-contentarea tc">
+                    <a href="javascript:void(0)" class="upload-img">
+                            <label for="upload-file">上传图像</label>
+                      </a>
+                    <input type="file" class="" name="upload-file" id="upload-file" />
+                    </div>
+                    <input type="button" id="btnCrop"  class="Btnsty_peyton" value="裁切">
+                    <input type="button" id="btnZoomIn" class="Btnsty_peyton" value="+"  >
+                    <input type="button" id="btnZoomOut" class="Btnsty_peyton" value="-" >
+                </div>
+                <div class="cropped"></div>
+                    <form id="user-img" method="post" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <input type="file" id="img-input" name="user_img" style="display: none">
+                    </form>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">关闭</button>
+                <button id="img-button" type="button" class="btn btn-primary">保存</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+<script>
+{#修改个人信息#}
+$.ajaxSetup({
+    data: { csrfmiddlewaretoken: '{{ csrf_token }}' }
+});//切记django的ajax使用post需要加上这个参数 否则csrf验证过不了
+$("#info-button").click(function () {
+    $.ajax({
+        type: "POST",
+        url:'{% url 'user_info' user_id %}',
+        data:$('#user-form').serialize(),
+        error: function(request) {
+         alert('服务器正忙，请稍后再试');
+        },
+        success: function(data) {
+             if(data.data == 1) {
+                 alert('数据不符合规范，请重新输入');
+             }
+             if(data.data == 0){
+                 alert('修改成功！');
+                 window.location.href="{% url 'user_info' user_id %}";
+             }
+             if(data.data == -1){
+                 alert('您没有操作权限');
+             }
+        }
+     });
+ });
+
+$("#img-button").click(function () {
+  $.ajax({
+        type: "POST",
+        url:'{% url 'change_img' user_id %}',
+        data:$('#user-img').serialize(),
+        processData:false,
+        contentType:false,
+        error: function() {
+         alert('服务器正忙，请稍后再试');
+        },
+        success: function(data) {
+             if(data.data == 1) {
+                 alert('数据不符合规范，请重新输入');
+             }
+             if(data.data == 0){
+                 alert('修改成功！');
+                 window.location.href="{% url 'user_info' user_id %}";
+             }
+             if(data.data == -1){
+                 alert('您没有操作权限');
+             }
+        }
+     });
+ });
+</script>
+<script>
+$(function() {
+	var options =
+	{
+		thumbBox: '.thumbBox',
+		spinner: '.spinner',
+		imgSrc: '{{ user_info.image.url }}'
+	};
+	var cropper = $('.imageBox').cropbox(options);
+	$('#upload-file').on('change', function(){
+		var reader = new FileReader();
+		reader.onload = function(e) {
+			options.imgSrc = e.target.result;
+			cropper = $('.imageBox').cropbox(options);
+		};
+		reader.readAsDataURL(this.files[0]);
+		this.files = [];
+	});
+	$('#btnCrop').on('click', function(){
+		var img = cropper.getDataURL();
+		$('#img-input').value = img;
+		$('.cropped').html('');
+		$('.cropped').append('<img src="'+img+'" align="absmiddle" style="width:64px;margin-top:4px;border-radius:64px;box-shadow:0px 0px 12px #7E7E7E;" ><p>64px*64px</p>');
+		$('.cropped').append('<img src="'+img+'" align="absmiddle" style="width:128px;margin-top:4px;border-radius:128px;box-shadow:0px 0px 12px #7E7E7E;"><p>128px*128px</p>');
+		$('.cropped').append('<img src="'+img+'" align="absmiddle" style="width:180px;margin-top:4px;border-radius:180px;box-shadow:0px 0px 12px #7E7E7E;"><p>180px*180px</p>');
+	});
+	$('#btnZoomIn').on('click', function(){
+		cropper.zoomIn();
+	});
+	$('#btnZoomOut').on('click', function(){
+		cropper.zoomOut();
+	})
 
 
-        <script>
-        {#修改个人信息#}
-        $.ajaxSetup({
-            data: {csrfmiddlewaretoken: '{{ csrf_token }}' }
-        });//切记django的ajax使用post需要加上这个参数 否则csrf验证过不了
-        $("#info-button").click(function () {
-            $.ajax({
-                type: "POST",
-                url:'{% url 'user_info' user_id %}',
-                data:$('#user-form').serialize(),
-                error: function(request) {
-                 alert('服务器正忙，请稍后再试');
-                },
-                success: function(data) {
-                     if(data.data == 1) {
-                         alert('数据不符合规范，请重新输入');
-                     }
-                     if(data.data == 0){
-                         alert('修改成功！');
-                         window.location.href="{% url 'user_info' user_id %}";
-                     }
-                     if(data.data == -1){
-                         alert('您没有操作权限');
-                     }
-                }
-             });
-         });
+    var img = cropper.getDataURL();
+});
+</script>
 
-        </script>
-    {% endif %}
 
+{% endif %}
+</div>
+
+</div>
+
+
+
+
+
+</section>
 {% endblock %}
 
 
-{% block user_course %}
-    <h2>注册的课程</h2>
+{% block aaa %}
+
+    <a href="">修改个人信息（弹窗ajax）</a>
+        <a href="">修改密码</a>
+        <a href="">注销用户</a>
+          <h2>注册的课程</h2>
     {% for course in all_course %}
         <a href="{% url 'course_detail' course.course.id %}"> <p>课程名称：{{ course.course.name }}</p></a>
         <div>课程图片：{{ course.course.image }}</div>
         <div>课程进度：</div>
     {% endfor %}
+
+
+
+
+
 {% endblock %}

@@ -2,7 +2,111 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68fbf983-7e51-485d-8502-cfce3e93d5c8" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/courses/migrations/0007_auto_20180726_0240.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/LOGO/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/css/animate.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/css/index.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/imgs/IMG_5279.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/imgs/banner.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/imgs/default_show.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/imgs/details.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/imgs/hover.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/imgs/org_button.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/imgs/round1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/imgs/round2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/imgs/round3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/imgs/round4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/imgs/slide.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/imgs/微信图片_20170520104817.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/imgs/微信图片_20170520110620.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/static/manage_site/js/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage_site/templates/manage_site/base.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/operations/migrations/0004_auto_20180726_0240.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/operations/migrations/0005_contact.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0010_userprofile_is_member.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/static/users/css/users.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/static/users/js/users.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/FITA/urls.py" afterPath="$PROJECT_DIR$/FITA/urls.py" />
+      <change beforePath="$PROJECT_DIR$/courses/templates/courses/base.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/courses/templates/courses/courses.html" afterPath="$PROJECT_DIR$/courses/templates/courses/courses.html" />
+      <change beforePath="$PROJECT_DIR$/courses/templates/courses/detail.html" afterPath="$PROJECT_DIR$/courses/templates/courses/detail.html" />
+      <change beforePath="$PROJECT_DIR$/courses/views.py" afterPath="$PROJECT_DIR$/courses/views.py" />
+      <change beforePath="$PROJECT_DIR$/manage_site/admin.py" afterPath="$PROJECT_DIR$/manage_site/admin.py" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/css/magnific-popup.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/css/slider.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/arrow_btn.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/arrow_btnh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/bg2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/cbg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/gd1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/gd2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/gd3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/gd4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/gd5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/gd6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/icon_1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/icon_2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/nav-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/next.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/pic1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/pic2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/pic3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/pic4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/pop1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/pop2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/pop3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/pop4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/pop5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/pop6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/prev.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/puls.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/round1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/round2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/round3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/round4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/sb1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/sb2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/sb3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/sb4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/sb5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/sb6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/search.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/share_icon1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/slider.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/spriteimg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/text_img.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/images/top_move.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/js/easing.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/js/jquery.cslider.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/js/jquery.magnific-popup.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/js/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/js/jquery.mixitup.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/js/jquery.wmuSlider.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/js/menu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/js/modernizr.custom.28468.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/static/manage_site/js/move-top.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/templates/manage_site/bloginner.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/templates/manage_site/blogsingle.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage_site/templates/manage_site/index.html" afterPath="$PROJECT_DIR$/manage_site/templates/manage_site/index.html" />
+      <change beforePath="$PROJECT_DIR$/manage_site/views.py" afterPath="$PROJECT_DIR$/manage_site/views.py" />
+      <change beforePath="$PROJECT_DIR$/operations/models.py" afterPath="$PROJECT_DIR$/operations/models.py" />
+      <change beforePath="$PROJECT_DIR$/users/form.py" afterPath="$PROJECT_DIR$/users/form.py" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" afterPath="$PROJECT_DIR$/users/models.py" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/base.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/login.html" afterPath="$PROJECT_DIR$/users/templates/users/login.html" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/pwd_forget.html" afterPath="$PROJECT_DIR$/users/templates/users/pwd_forget.html" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/pwd_reset.html" afterPath="$PROJECT_DIR$/users/templates/users/pwd_reset.html" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/register.html" afterPath="$PROJECT_DIR$/users/templates/users/register.html" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/user_center.html" afterPath="$PROJECT_DIR$/users/templates/users/user_center.html" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/user_info.html" afterPath="$PROJECT_DIR$/users/templates/users/user_info.html" />
+      <change beforePath="$PROJECT_DIR$/users/urls.py" afterPath="$PROJECT_DIR$/users/urls.py" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" afterPath="$PROJECT_DIR$/users/views.py" />
     </list>
     <ignored path="E:\2018\FITA\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,82 +122,630 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Unnamed">
+      <favorite_root url="file://$PROJECT_DIR$/manage_site/static/manage_site/css/index.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/unit" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/unit/tab.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/unit/affix.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/unit/alert.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/unit/modal.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/unit/.jshintrc" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/unit/button.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/unit/phantom.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/unit/popover.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/unit/tooltip.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/unit/carousel.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/unit/collapse.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/unit/dropdown.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/unit/scrollspy.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/vendor" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/vendor/qunit.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/vendor/qunit.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/vendor/jquery.min.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/visual" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/visual/tab.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/visual/affix.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/visual/alert.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/visual/modal.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/visual/button.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/visual/popover.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/visual/tooltip.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/visual/carousel.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/visual/collapse.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/visual/dropdown.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/visual/scrollspy.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/visual/affix-with-sticky-footer.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/README.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tests/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tab.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/.jscsrc" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/affix.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/alert.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/modal.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/.jshintrc" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/button.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/popover.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/tooltip.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/carousel.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/collapse.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/dropdown.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/scrollspy.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/js/transition.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/dist" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/dist/js" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/dist/js/npm.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/dist/js/bootstrap.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/dist/js/bootstrap.min.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/dist/css" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/dist/css/bootstrap.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/dist/css/bootstrap.css.map" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/dist/css/bootstrap.min.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/dist/css/bootstrap-theme.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/dist/css/bootstrap.min.css.map" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/dist/css/bootstrap-theme.css.map" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/dist/css/bootstrap-theme.min.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/dist/css/bootstrap-theme.min.css.map" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/dist/fonts" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/dist/fonts/glyphicons-halflings-regular.eot" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/dist/fonts/glyphicons-halflings-regular.svg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/dist/fonts/glyphicons-halflings-regular.ttf" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/dist/fonts/glyphicons-halflings-regular.woff" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/dist/fonts/glyphicons-halflings-regular.woff2" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_pug" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_pug/customizer-nav.pug" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_pug/customizer-variables.pug" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/dist" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/dist/js" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/dist/js/npm.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/dist/js/bootstrap.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/dist/js/bootstrap.min.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/dist/css" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/dist/css/bootstrap.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/dist/css/bootstrap.css.map" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/dist/css/bootstrap.min.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/dist/css/bootstrap-theme.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/dist/css/bootstrap.min.css.map" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/dist/css/bootstrap-theme.css.map" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/dist/css/bootstrap-theme.min.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/dist/css/bootstrap-theme.min.css.map" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/dist/fonts" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/dist/fonts/glyphicons-halflings-regular.eot" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/dist/fonts/glyphicons-halflings-regular.svg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/dist/fonts/glyphicons-halflings-regular.ttf" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/dist/fonts/glyphicons-halflings-regular.woff" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/dist/fonts/glyphicons-halflings-regular.woff2" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_data" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_data/showcase.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_data/core-team.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_data/sass-team.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_data/glyphicons.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_data/browser-bugs.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_data/translations.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_data/browser-features.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/js" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/js/src" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/js/src/customizer.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/js/src/application.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/js/vendor" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/js/vendor/Blob.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/js/vendor/less.min.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/js/vendor/FileSaver.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/js/vendor/jszip.min.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/js/vendor/anchor.min.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/js/vendor/holder.min.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/js/vendor/jquery.min.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/js/vendor/uglify.min.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/js/vendor/autoprefixer.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/js/vendor/ZeroClipboard.min.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/js/docs.min.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/js/customize.min.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/js/raw-files.min.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/js/ie-emulation-modes-warning.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/js/ie8-responsive-file-warning.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/js/ie10-viewport-bug-workaround.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/css" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/css/src" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/css/src/docs.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/css/src/pygments-manni.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/css/docs.min.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/css/docs.min.css.map" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/css/ie10-viewport-bug-workaround.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/img" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/img/devices.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/img/expo-lyft.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/img/expo-riot.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/img/sass-less.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/img/components.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/img/expo-vogue.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/img/expo-newsweek.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/brand" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/brand/bootstrap-solid.svg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/brand/bootstrap-outline.svg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/brand/bootstrap-punchout.svg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/flash" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/assets/flash/ZeroClipboard.swf" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/LICENSE" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_layouts" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_layouts/home.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_layouts/default.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_plugins" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_plugins/bridge.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_plugins/bugify.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/css.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/blog" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/blog/blog.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/blog/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/grid" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/grid/grid.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/grid/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/cover" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/cover/cover.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/cover/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/theme" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/theme/theme.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/theme/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/navbar" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/navbar/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/navbar/navbar.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/signin" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/signin/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/signin/signin.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/carousel" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/carousel/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/carousel/carousel.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/dashboard" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/dashboard/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/dashboard/dashboard.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/jumbotron" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/jumbotron/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/jumbotron/jumbotron.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/offcanvas" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/offcanvas/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/offcanvas/offcanvas.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/offcanvas/offcanvas.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/screenshots" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/screenshots/blog.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/screenshots/grid.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/screenshots/cover.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/screenshots/theme.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/screenshots/navbar.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/screenshots/sign-in.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/screenshots/carousel.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/screenshots/dashboard.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/screenshots/jumbotron.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/screenshots/offcanvas.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/screenshots/navbar-fixed.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/screenshots/justified-nav.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/screenshots/navbar-static.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/screenshots/sticky-footer.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/screenshots/non-responsive.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/screenshots/jumbotron-narrow.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/screenshots/starter-template.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/screenshots/equal-height-columns.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/screenshots/sticky-footer-navbar.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/justified-nav" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/justified-nav/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/justified-nav/justified-nav.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/sticky-footer" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/sticky-footer/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/sticky-footer/sticky-footer.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/non-responsive" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/non-responsive/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/non-responsive/non-responsive.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/jumbotron-narrow" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/jumbotron-narrow/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/jumbotron-narrow/jumbotron-narrow.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/navbar-fixed-top" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/navbar-fixed-top/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/navbar-fixed-top/navbar-fixed-top.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/starter-template" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/starter-template/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/starter-template/starter-template.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/tooltip-viewport" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/tooltip-viewport/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/tooltip-viewport/tooltip-viewport.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/tooltip-viewport/tooltip-viewport.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/navbar-static-top" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/navbar-static-top/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/navbar-static-top/navbar-static-top.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/sticky-footer-navbar" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/sticky-footer-navbar/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/examples/sticky-footer-navbar/sticky-footer-navbar.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/js" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/js/tabs.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/js/affix.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/js/modal.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/js/alerts.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/js/buttons.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/js/carousel.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/js/collapse.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/js/overview.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/js/popovers.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/js/tooltips.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/js/dropdowns.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/js/scrollspy.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/js/transitions.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/css" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/css/code.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/css/grid.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/css/less.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/css/sass.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/css/type.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/css/forms.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/css/images.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/css/tables.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/css/buttons.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/css/helpers.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/css/overview.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/css/responsive-utilities.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/nav" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/nav/css.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/nav/main.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/nav/about.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/nav/customize.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/nav/migration.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/nav/components.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/nav/javascript.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/nav/getting-started.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/ads.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/components" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/components/navs.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/components/media.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/components/wells.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/components/alerts.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/components/badges.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/components/labels.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/components/navbar.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/components/panels.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/components/dropdowns.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/components/jumbotron.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/components/glyphicons.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/components/list-group.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/components/pagination.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/components/thumbnails.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/components/breadcrumbs.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/components/page-header.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/components/input-groups.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/components/button-groups.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/components/progress-bars.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/components/button-dropdowns.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/components/responsive-embed.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/footer.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/header.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/getting-started" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/getting-started/grunt.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/getting-started/tools.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/getting-started/license.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/getting-started/download.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/getting-started/examples.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/getting-started/template.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/getting-started/community.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/getting-started/translations.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/getting-started/accessibility.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/getting-started/whats-included.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/getting-started/third-party-support.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/getting-started/browser-device-support.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/getting-started/disabling-responsiveness.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/_includes/customizer-variables.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/about.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/robots.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/favicon.ico" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/customize.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/migration.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/components.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/javascript.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/browser-bugs.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/apple-touch-icon.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/docs/getting-started.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/grid.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/size.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/forms.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/image.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/alerts.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/labels.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/panels.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/resize.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/buttons.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/opacity.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/clearfix.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/gradients.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/hide-text.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/tab-focus.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/table-row.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/list-group.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/pagination.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/reset-text.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/nav-divider.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/center-block.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/progress-bar.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/reset-filter.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/border-radius.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/text-emphasis.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/text-overflow.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/grid-framework.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/vendor-prefixes.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/background-variant.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/nav-vertical-align.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins/responsive-visibility.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/code.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/grid.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/navs.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/type.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/.csslintrc" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/close.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/forms.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/media.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/pager.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/print.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/theme.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/wells.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/alerts.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/badges.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/labels.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/mixins.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/modals.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/navbar.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/panels.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/tables.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/buttons.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/tooltip.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/.csscomb.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/carousel.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/popovers.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/bootstrap.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/dropdowns.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/jumbotron.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/normalize.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/utilities.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/variables.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/glyphicons.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/list-group.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/pagination.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/thumbnails.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/breadcrumbs.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/scaffolding.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/input-groups.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/button-groups.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/progress-bars.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/responsive-embed.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/component-animations.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/responsive-utilities.less" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/CNAME" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/fonts" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.ttf" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff2" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/grunt" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/grunt/.jshintrc" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/grunt/change-version.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/grunt/configBridge.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/grunt/sauce_browsers.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/grunt/npm-shrinkwrap.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/grunt/bs-lessdoc-parser.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/grunt/bs-commonjs-generator.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/grunt/bs-raw-files-generator.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/grunt/bs-glyphicons-data-generator.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/nuget" module="FITA" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/nuget/MyGet.ps1" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/nuget/bootstrap.nuspec" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/nuget/bootstrap.less.nuspec" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/Gemfile" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/LICENSE" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/README.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/.gitignore" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/.hound.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/bower.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/package.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/.travis.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/_config.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/CHANGELOG.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/Gemfile.lock" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/Gruntfile.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/package.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/.editorconfig" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/composer.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/.gitattributes" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/CONTRIBUTING.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/ISSUE_TEMPLATE.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+    </favorites_list>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage_site/templates/manage_site/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3703">
+              <caret line="161" column="13" lean-forward="false" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_center.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/users/templates/users/user_center.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="131" column="26" lean-forward="true" selection-start-line="131" selection-start-column="26" selection-end-line="131" selection-end-column="26" />
+              <folding>
+                <element signature="e#501#532#0#HTML" expanded="true" />
+                <element signature="e#1194#2363#0#HTML" expanded="false" />
+                <element signature="e#1550#1557#1#HTML" expanded="true" />
+                <element signature="e#2603#2866#0#HTML" expanded="false" />
+                <element signature="e#2752#2759#1#HTML" expanded="true" />
+                <element signature="e#2971#3145#0#HTML" expanded="false" />
+                <element signature="e#3084#3105#0#HTML" expanded="true" />
+                <element signature="e#3162#3805#0#HTML" expanded="false" />
+                <element signature="e#3256#3397#0#HTML" expanded="false" />
+                <element signature="e#4050#4071#0#HTML" expanded="true" />
+                <element signature="e#4159#4390#0#HTML" expanded="false" />
+                <element signature="e#4612#5194#0#HTML" expanded="false" />
+                <element signature="e#6095#6310#0#HTML" expanded="false" />
+                <element signature="e#6997#7021#0#HTML" expanded="false" />
+                <element signature="e#7064#7089#0#HTML" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/users/static/users/js/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manage_site/templates/manage_site/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="286" column="14" lean-forward="false" selection-start-line="286" selection-start-column="14" selection-end-line="286" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/users/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="127" column="23" lean-forward="false" selection-start-line="127" selection-start-column="23" selection-end-line="127" selection-end-column="23" />
+            <state relative-caret-position="521">
+              <caret line="168" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
               <folding>
                 <element signature="e#128#139#0" expanded="true" />
+                <element signature="e#614#1363#0" expanded="false" />
+                <element signature="e#1396#2681#0" expanded="false" />
+                <element signature="e#2712#2825#0" expanded="false" />
+                <element signature="e#4318#4418#0" expanded="false" />
+                <element signature="e#4457#5009#0" expanded="false" />
+                <element signature="e#5047#6073#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LICENSE">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/users/templates/users/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="201" column="0" lean-forward="false" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/courses/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="30" column="44" lean-forward="false" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-              <folding>
-                <element signature="e#127#156#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/courses/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-              <folding>
-                <element signature="e#128#157#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="paginator.py" pinned="false" current-in-tab="false">
-        <entry file="file://E:/FITA/venv/Lib/site-packages/django/core/paginator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1081">
-              <caret line="52" column="17" lean-forward="false" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="courses.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/courses/templates/courses/courses.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state relative-caret-position="23">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/courses/urls.py">
+        <entry file="file://$PROJECT_DIR$/users/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            <state relative-caret-position="291">
+              <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/users/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="569">
+              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/users/form.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="21" />
               <folding>
-                <element signature="e#170#202#0" expanded="true" />
+                <element signature="e#147#183#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/users/static/users/css/users.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="118" column="24" lean-forward="false" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,37 +755,49 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ci</find>
-      <find>city</find>
-      <find>xadmin</find>
-      <find>nav</find>
-      <find>href</find>
-      <find>static</find>
-      <find>side</find>
-      <find>slider</find>
-      <find>popup-with-zoom-anim</find>
-      <find>Portfolio</find>
-      <find>zoom</find>
-      <find>/</find>
-      <find>password</find>
-      <find>form</find>
-      <find>read</find>
-      <find>image</find>
-      <find>images_1_of_4</find>
-      <find>small-dialog</find>
-      <find>pop_p</find>
-      <find>src</find>
-      <find>UserProfile</find>
       <find>HttpResponseRedirect</find>
+      <find>navbar</find>
+      <find>navbar-default</find>
+      <find>80</find>
+      <find>80px</find>
+      <find>jquery</find>
+      <find>brand</find>
+      <find>color</find>
+      <find>focus</find>
+      <find>{{</find>
+      <find>user.a</find>
+      <find>user</find>
+      <find>hover</find>
+      <find>active</find>
+      <find>drop</find>
+      <find>background-color</find>
+      <find>media</find>
+      <find>@navbar-default-link-active-color</find>
+      <find>margin-bottom</find>
+      <find>@@navbar-default-link-active-bg</find>
+      <find>@navbar-default-link-active-bgk-active-bg</find>
+      <find>@navbar-default-link-active-bg</find>
+      <find>rgb</find>
+      <find>img</find>
+      <find>back</find>
+      <find>png</find>
+      <find>MemberApplication</find>
+      <find>form</find>
+      <find>cropbox</find>
+      <find>FILES</find>
     </findStrings>
+    <replaceStrings>
+      <replace>navbar-tg</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -141,62 +805,63 @@
         <option value="TrumanGu &lt;1227085585@qq.com&gt;" />
       </list>
     </option>
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/blocks/title.html" />
-        <option value="$PROJECT_DIR$/templates/manage_site/banner.html" />
-        <option value="$PROJECT_DIR$/templates/courses/courses.html" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/users/users.html" />
-        <option value="$PROJECT_DIR$/manage_site/form.py" />
-        <option value="$PROJECT_DIR$/operations/form.py" />
-        <option value="$PROJECT_DIR$/users/tests.py" />
-        <option value="$PROJECT_DIR$/manage_site/admin.py" />
-        <option value="$PROJECT_DIR$/manage_site/templates/manage_site/index_course_tag.html" />
-        <option value="$PROJECT_DIR$/manage_site/urls.py" />
-        <option value="$PROJECT_DIR$/manage_site/models.py" />
-        <option value="$PROJECT_DIR$/manage_site/templates/manage_site/index.html" />
-        <option value="$PROJECT_DIR$/users/templates/users/password_change_form.html" />
-        <option value="$PROJECT_DIR$/users/templates/users/password_reset_complete.html" />
         <option value="$PROJECT_DIR$/users/templates/users/password_reset_confirm.html" />
         <option value="$PROJECT_DIR$/users/templates/users/password_reset_done.html" />
         <option value="$PROJECT_DIR$/users/templates/users/password_reset_form.html" />
         <option value="$PROJECT_DIR$/users/templates/users/user_mycourse.html" />
         <option value="$PROJECT_DIR$/users/templates/users/tags/user_course_tag.html" />
         <option value="$PROJECT_DIR$/courses/static/common/jquery.js" />
-        <option value="$PROJECT_DIR$/users/templates/users/user_info.html" />
-        <option value="$PROJECT_DIR$/manage_site/templates/manage_site/base.html" />
         <option value="$PROJECT_DIR$/manage_site/templates/manage_site/404.html" />
-        <option value="$PROJECT_DIR$/manage_site/views.py" />
         <option value="$PROJECT_DIR$/courses/templates/courses/base.html" />
         <option value="$PROJECT_DIR$/users/templates/users/base.html" />
-        <option value="$PROJECT_DIR$/users/models.py" />
         <option value="$PROJECT_DIR$/FITA/settings.py" />
-        <option value="$PROJECT_DIR$/users/templates/users/pwd_reset.html" />
-        <option value="$PROJECT_DIR$/users/form.py" />
-        <option value="$PROJECT_DIR$/users/templates/users/login.html" />
-        <option value="$PROJECT_DIR$/users/templates/users/pwd_forget.html" />
         <option value="$PROJECT_DIR$/users/utils.py" />
-        <option value="$PROJECT_DIR$/users/urls.py" />
-        <option value="$PROJECT_DIR$/users/templates/users/user_center.html" />
-        <option value="$PROJECT_DIR$/FITA/urls.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/users/templates/users/register.html" />
         <option value="$PROJECT_DIR$/courses/admin.py" />
         <option value="$PROJECT_DIR$/courses/urls.py" />
-        <option value="$PROJECT_DIR$/operations/models.py" />
         <option value="$PROJECT_DIR$/operations/views.py" />
         <option value="$PROJECT_DIR$/operations/urls.py" />
-        <option value="$PROJECT_DIR$/courses/templates/courses/detail.html" />
         <option value="$PROJECT_DIR$/courses/models.py" />
-        <option value="$PROJECT_DIR$/courses/views.py" />
-        <option value="$PROJECT_DIR$/courses/templates/courses/courses.html" />
-        <option value="$PROJECT_DIR$/users/views.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LICENSE" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/manage_site/static/manage_site/index.less" />
+        <option value="$PROJECT_DIR$/manage_site/static/manage_site/index.css" />
+        <option value="$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/bootstrap.less" />
+        <option value="$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/variables.less" />
+        <option value="$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/navbar.less" />
+        <option value="$PROJECT_DIR$/manage_site/static/manage_site/js/index.js" />
+        <option value="$PROJECT_DIR$/manage_site/static/manage_site/css/index.css" />
+        <option value="$PROJECT_DIR$/operations/models.py" />
+        <option value="$PROJECT_DIR$/manage_site/templates/manage_site/contact_tag.html" />
+        <option value="$PROJECT_DIR$/FITA/urls.py" />
+        <option value="$PROJECT_DIR$/manage_site/admin.py" />
+        <option value="$PROJECT_DIR$/users/templates/users/user_info.html" />
+        <option value="$PROJECT_DIR$/courses/templates/courses/courses.html" />
+        <option value="$PROJECT_DIR$/courses/templates/courses/detail.html" />
+        <option value="$PROJECT_DIR$/manage_site/templates/manage_site/application_tag.html" />
+        <option value="$PROJECT_DIR$/manage_site/views.py" />
+        <option value="$PROJECT_DIR$/manage_site/templates/manage_site/contact_form_tag.html" />
+        <option value="$PROJECT_DIR$/courses/views.py" />
+        <option value="$PROJECT_DIR$/manage_site/static/manage_site/css/index.less" />
+        <option value="$PROJECT_DIR$/manage_site/templates/manage_site/base.html" />
+        <option value="$PROJECT_DIR$/users/templates/users/login.html" />
+        <option value="$PROJECT_DIR$/users/templates/users/pwd_reset.html" />
+        <option value="$PROJECT_DIR$/users/templates/users/pwd_forget.html" />
+        <option value="$PROJECT_DIR$/users/templates/users/register.html" />
+        <option value="$PROJECT_DIR$/users/form.py" />
+        <option value="$PROJECT_DIR$/users/models.py" />
+        <option value="$PROJECT_DIR$/users/static/users/js/users.js" />
+        <option value="$PROJECT_DIR$/users/static/users/css/users.less" />
+        <option value="$PROJECT_DIR$/users/urls.py" />
+        <option value="$PROJECT_DIR$/users/views.py" />
+        <option value="$PROJECT_DIR$/users/templates/users/user_center.html" />
+        <option value="$PROJECT_DIR$/manage_site/templates/manage_site/index.html" />
       </list>
     </option>
   </component>
@@ -206,8 +871,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="976" />
     <option name="height" value="1038" />
   </component>
@@ -249,7 +915,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,34 +922,55 @@
               <item name="FITA" type="b2602c69:ProjectViewProjectNode" />
               <item name="FITA" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FITA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FITA" type="462c0819:PsiDirectoryNode" />
+              <item name="manage_site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FITA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FITA" type="462c0819:PsiDirectoryNode" />
+              <item name="manage_site" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FITA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FITA" type="462c0819:PsiDirectoryNode" />
+              <item name="manage_site" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="manage_site" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="pagina&#9;null&#9;null&#10;IndexCourseAdmin&#9;null&#9;null&#10;FormMixin&#9;null&#9;null&#10;mixin&#9;FILE&#9;file://E:/FITA/venv/Lib/site-packages/django/db/models/fields/mixins.py&#10;brand&#9;null&#9;null&#10;city&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="title&#9;null&#9;null&#10;pagina&#9;null&#9;null&#10;IndexCourseAdmin&#9;null&#9;null&#10;FormMixin&#9;null&#9;null&#10;mixin&#9;FILE&#9;file://E:/FITA/venv/Lib/site-packages/django/db/models/fields/mixins.py&#10;brand&#9;null&#9;null&#10;city&#9;null&#9;null" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/npm/lessc.cmd" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\2018\FITA\courses\static\common" />
-      <recent name="E:\2018\FITA\users\templates\users\tags" />
-      <recent name="E:\2018\FITA\users\templates\users" />
-      <recent name="E:\2018\FITA\courses\static\css" />
-      <recent name="E:\2018\FITA\courses\static" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\2018\FITA\media\users\teachers" />
       <recent name="E:\2018\FITA\media\users" />
       <recent name="E:\2018\FITA\courses\static\common" />
       <recent name="E:\2018\FITA\courses\static" />
       <recent name="E:\2018\FITA\courses\static\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\2018\FITA\users\static\users" />
+      <recent name="E:\2018\FITA\manage_site\static\manage_site\imgs" />
+      <recent name="E:\2018\FITA\manage_site\static\manage_site\css" />
+      <recent name="E:\2018\FITA\manage_site\static" />
+      <recent name="E:\2018\FITA\manage_site\static\manage_site\LOGO" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -450,7 +1136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532006786924</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Merge branch 'master' of https://github.com/TrumanGu/FITA&#10;&#10;# Conflicts:&#10;#&#9;LICENSE&#10;#&#9;README.md">
+      <created>1532007292006</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1532007292006</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -471,28 +1164,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="952" y="0" width="976" height="1038" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298731" sideWeight="0.51995564" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298731" sideWeight="0.48004434" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38292965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.4955654" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25609756" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38408303" sideWeight="0.5875831" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.33481154" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32839224" sideWeight="0.41241685" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.4955654" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14645922" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3945268" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39331028" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@FITA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33448672" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@FITA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33448672" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -538,6 +1232,28 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/users/views.py</url>
+          <line>170</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/users/views.py</url>
+          <line>169</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/users/views.py</url>
+          <line>168</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/users/views.py</url>
+          <line>167</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -545,364 +1261,414 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="33" />
+      <option name="time" value="50" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/courses/static/common/jquery-3.3.1.min.js">
+    <entry file="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/navbar.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="462" column="56" lean-forward="false" selection-start-line="462" selection-start-column="26" selection-end-line="462" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7567">
+          <caret line="329" column="1" lean-forward="false" selection-start-line="329" selection-start-column="1" selection-end-line="329" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage_site/static/manage_site/imgs/blue_button.png" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="503" column="16" lean-forward="false" selection-start-line="503" selection-start-column="16" selection-end-line="503" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage_site/static/manage_site/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage_site/static/manage_site/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage_site/templates/manage_site/blogsingle.html" />
+    <entry file="file://$PROJECT_DIR$/manage_site/static/manage_site/css/animate.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courses/static/common/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/manage_site/static/manage_site/imgs/org_button.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="3" column="12845" lean-forward="false" selection-start-line="3" selection-start-column="12845" selection-end-line="3" selection-end-column="12845" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage_site/static/manage_site/imgs/details.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://E:/FITA/venv/Lib/site-packages/django/contrib/auth/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-508">
+          <caret line="287" column="6" lean-forward="false" selection-start-line="287" selection-start-column="6" selection-end-line="287" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage_site/templates/manage_site/contact_tag.html" />
+    <entry file="file://$PROJECT_DIR$/FITA/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding>
+            <element signature="e#127#159#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="20" column="60" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage_site/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-202">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courses/static/common/bootstrap.js">
+    <entry file="file://$PROJECT_DIR$/courses/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage_site/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="e#151#164#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/templates/users/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses/templates/courses/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-386">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage_site/form.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage_site/templates/manage_site/base.html" />
-    <entry file="file://$PROJECT_DIR$/manage_site/templates/manage_site/index.html">
+    <entry file="file://$PROJECT_DIR$/operations/form.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="237" column="22" lean-forward="true" selection-start-line="237" selection-start-column="22" selection-end-line="237" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage_site/templates/manage_site/404.html">
+    <entry file="file://$PROJECT_DIR$/courses/templates/courses/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="-1373">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses/templates/courses/courses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage_site/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/users/templates/users/password_reset_form.html" />
-    <entry file="file://$PROJECT_DIR$/users/templates/users/password_change_form.html" />
-    <entry file="file://E:/FITA/venv/Lib/site-packages/django/core/mail/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/FITA/venv/Lib/site-packages/django/core/mail/message.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-1119998672/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="70" column="8" lean-forward="true" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/FITA/venv/Lib/random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="252" column="8" lean-forward="false" selection-start-line="252" selection-start-column="8" selection-end-line="252" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/courses/templates/courses/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/templates/users/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="29" column="82" lean-forward="false" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/templates/users/pwd_reset.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="37" column="74" lean-forward="false" selection-start-line="37" selection-start-column="74" selection-end-line="37" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/FITA/venv/Lib/site-packages/django/http/response.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="422" column="26" lean-forward="false" selection-start-line="422" selection-start-column="6" selection-end-line="422" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/templates/users/pwd_forget.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FITA/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage_site/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage_site/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1748">
-          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/templates/users/user_info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/templates/users/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" column="48" lean-forward="false" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/form.py">
+    <entry file="file://$PROJECT_DIR$/manage_site/templates/manage_site/contact_form_tag.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/templates/users/user_center.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/templates/users/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FITA/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/courses/templates/courses/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/courses/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/operations/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/operations/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/operations/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/FITA/venv/Lib/site-packages/django/views/generic/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-798">
-          <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/FITA/venv/Lib/site-packages/django/views/generic/list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3059">
-          <caret line="138" column="42" lean-forward="false" selection-start-line="138" selection-start-column="42" selection-end-line="138" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/FITA/venv/Lib/site-packages/django/core/paginator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="52" column="17" lean-forward="false" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/courses/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding>
-            <element signature="e#170#202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/courses/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding>
-            <element signature="e#128#157#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/courses/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="30" column="44" lean-forward="false" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-          <folding>
-            <element signature="e#127#156#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/courses/templates/courses/courses.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="559">
+          <caret line="79" column="28" lean-forward="false" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-736">
-            <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/manage_site/templates/manage_site/application_tag.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/manage_site/static/manage_site/imgs/slide.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage_site/templates/manage_site/404.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="386" column="21" lean-forward="false" selection-start-line="386" selection-start-column="21" selection-end-line="386" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/manage_site/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        <state relative-caret-position="23">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage_site/static/manage_site/imgs/banner.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage_site/static/manage_site/css/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/templates/users/pwd_reset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/templates/users/pwd_forget.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/templates/users/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage_site/static/bootstrap-3.3.7/less/thumbnails.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="31" column="3" lean-forward="false" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/operations/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="84" column="37" lean-forward="false" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/templates/users/user_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="21" />
+          <folding>
+            <element signature="e#147#183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/static/users/css/users.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="118" column="24" lean-forward="false" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/static/users/js/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/templates/users/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="127" column="23" lean-forward="false" selection-start-line="127" selection-start-column="23" selection-end-line="127" selection-end-column="23" />
+        <state relative-caret-position="521">
+          <caret line="168" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
           <folding>
             <element signature="e#128#139#0" expanded="true" />
+            <element signature="e#614#1363#0" expanded="false" />
+            <element signature="e#1396#2681#0" expanded="false" />
+            <element signature="e#2712#2825#0" expanded="false" />
+            <element signature="e#4318#4418#0" expanded="false" />
+            <element signature="e#4457#5009#0" expanded="false" />
+            <element signature="e#5047#6073#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
+    <entry file="file://$PROJECT_DIR$/users/templates/users/user_center.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="201" column="0" lean-forward="false" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+        <state relative-caret-position="470">
+          <caret line="131" column="26" lean-forward="true" selection-start-line="131" selection-start-column="26" selection-end-line="131" selection-end-column="26" />
+          <folding>
+            <element signature="e#501#532#0#HTML" expanded="true" />
+            <element signature="e#1194#2363#0#HTML" expanded="false" />
+            <element signature="e#1550#1557#1#HTML" expanded="true" />
+            <element signature="e#2603#2866#0#HTML" expanded="false" />
+            <element signature="e#2752#2759#1#HTML" expanded="true" />
+            <element signature="e#2971#3145#0#HTML" expanded="false" />
+            <element signature="e#3084#3105#0#HTML" expanded="true" />
+            <element signature="e#3162#3805#0#HTML" expanded="false" />
+            <element signature="e#3256#3397#0#HTML" expanded="false" />
+            <element signature="e#4050#4071#0#HTML" expanded="true" />
+            <element signature="e#4159#4390#0#HTML" expanded="false" />
+            <element signature="e#4612#5194#0#HTML" expanded="false" />
+            <element signature="e#6095#6310#0#HTML" expanded="false" />
+            <element signature="e#6997#7021#0#HTML" expanded="false" />
+            <element signature="e#7064#7089#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage_site/templates/manage_site/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3703">
+          <caret line="161" column="13" lean-forward="false" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage_site/templates/manage_site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="286" column="14" lean-forward="false" selection-start-line="286" selection-start-column="14" selection-end-line="286" selection-end-column="14" />
           <folding />
         </state>
       </provider>
