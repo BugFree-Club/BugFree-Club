@@ -14,5 +14,6 @@ urlpatterns = [
     url(r'^logout/$', LogoutView.as_view(), name="logout"),
     url(r'^register/$', RegisterView.as_view(), name="register"),
     url(r'^forget/$', ForgetPasswordView.as_view(), name='forget'),
-    url(r'^reset/(?P<active_code>.*)/$', ResetPasswordView.as_view(), name='reset')
+    url(r'^reset/(?P<active_code>.*)/$', ResetPasswordView.as_view(), name='reset'),
+    url(r'^(?P<user_id>\d+)/changeImg', ImgChangeApi.as_view(), name='change_img')
 ]

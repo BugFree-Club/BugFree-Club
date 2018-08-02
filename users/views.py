@@ -39,9 +39,6 @@ class LoginView(View):
         return render(request,'users/login.html',{'err_msg':err_msg,'LoginForm':LoginForm()})
 
 
-
-
-
 class RegisterView(View):
     '''注册页面'''
     def get(self,requset):
@@ -74,7 +71,6 @@ class RegisterView(View):
             return render(request, 'users/register.html',{'err_msg': '两次密码不相同，请重新输入', 'RegisterForm': form})
 
 
-
 class LogoutView(View):
     '''注销'''
     def get(self,request):
@@ -97,7 +93,6 @@ class UserCenterView(LoginRequiredMixin,View):
                 'address':user_info.address,
                 'department':user_info.department,
                 'gender':user_info.gender,
-                'image':user_info.image
             })
         except Exception:
             pass
@@ -114,7 +109,7 @@ class UserCenterView(LoginRequiredMixin,View):
             return HttpResponse(json.dumps(msg), content_type='application/json')
 
         #2.修改个人信息
-        user_info_form = UserInfoForm(request.POST,request.FILES, instance=request.user)
+        user_info_form = UserInfoForm(request.POST, request.FILES, instance=request.user)
         if user_info_form.is_valid():
             user_info_form.save()
             msg['data'] = 0 #0表示修改成功
@@ -168,4 +163,10 @@ class ResetPasswordView(View):
         msg = {'err_msg': '两次密码输入不一致'}
         modify_form = ModifyPwdForm()
         return render(request, "users/pwd_reset.html", locals())
+
+
+class ImgChangeApi(View):
+    def post(self, request,user_id):
+        user_img = request.FILES
+        print(user_img)
 

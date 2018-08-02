@@ -7,6 +7,24 @@
 
 import xadmin
 from .models import *
+from operations.models import MemberApplication,Contact
+
+
+class MemberApplicationAdmin(object):
+    list_display = ['user','is_passed','add_time']
+    search_fields = ['user']
+    list_filter = ['is_passed','add_time']
+
+
+xadmin.site.register(MemberApplication, MemberApplicationAdmin)
+
+
+class ContactAdmin(object):
+    list_display = ['user','des']
+    list_filter = ['add_time']
+
+
+xadmin.site.register(Contact, ContactAdmin)
 
 
 class BannerAdmin(object):
@@ -22,7 +40,7 @@ class IndexCourseAdmin(object):
     list_display = ['course_name']
 
 
-xadmin.site.register(IndexCourse,IndexCourseAdmin)
+xadmin.site.register(IndexCourse, IndexCourseAdmin)
 
 
 class IndexImgShowAdmin(object):

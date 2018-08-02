@@ -6,17 +6,6 @@ from users.models import UserProfile
 from courses.models import Course,Lesson
 
 
-class CourseUserAsk(models.Model):
-    name = models.CharField(max_length=20, verbose_name='姓名')
-    course_name = models.CharField(max_length=50, verbose_name='课程名')
-    add_time = models.DateTimeField(default=datetime.now, verbose_name='添加时间')
-
-    class Meta:
-        verbose_name = '用户咨询'
-        verbose_name_plural = verbose_name
-
-    def __str__(self):
-        return self.name
 
 
 class CourseComments(models.Model):
@@ -89,3 +78,33 @@ class UserLesson(models.Model):
 
     def __str__(self):
         return '%s: %s' % (self.user, self.lesson)
+
+class MemberApplication(models.Model):
+    user = models.ForeignKey(UserProfile, verbose_name='用户', on_delete=models.CASCADE)
+    des = models.TextField(verbose_name='个人简介')
+    is_passed = models.BooleanField(verbose_name='审核状态', default=False)
+    add_time = models.DateTimeField(default=datetime.now, verbose_name='添加时间')
+
+    class Meta:
+        ordering = ['-add_time']
+        verbose_name = '加入申请'
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return self.user.username
+
+
+class Contact(models.Model):
+    '''联系我们'''
+    user = models.ForeignKey(UserProfile, verbose_name='用户', on_delete=models.CASCADE)
+    des = models.TextField(verbose_name='内容')
+    add_time = models.DateTimeField(default=datetime.now, verbose_name='添加时间')
+
+    class Meta:
+        ordering = ['-add_time']
+        verbose_name = '联系我们'
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return self.user.username
+

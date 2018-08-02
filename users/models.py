@@ -18,6 +18,7 @@ class UserProfile(AbstractUser):
     email = models.EmailField(null=True, blank=True, verbose_name='邮箱')
     department = models.CharField(choices=DEP_CHOICE,default='z',verbose_name='学院',max_length=20)
     image = models.ImageField(upload_to="users/%Y/%m", default="/users/default.png", max_length=100,verbose_name='头像')
+    is_member = models.BooleanField(default=False, verbose_name='是否成员')
 
     class Meta:
         verbose_name = " 用户信息"
@@ -64,3 +65,4 @@ class Teacher(models.Model):
 
     def __str__(self):
         return self.name.username
+

@@ -1,8 +1,19 @@
-{% extends 'users/base.html' %}
-{% block title %}忘记密码{% endblock %}
+{% extends 'manage_site/base.html' %}
+{% load static %}
+{% block page_title %}
+    忘记密码
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'users/css/users.css' %}">
+{% endblock %}
+
+{% block js %}
+    <script src="{% static 'users/js/users.js' %}"></script>
+{% endblock %}
 
 
-{% block user_info %}
+{% block body %}
  <style>
         .errorlist {
             color: red;
