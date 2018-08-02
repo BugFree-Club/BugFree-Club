@@ -12,19 +12,15 @@
     <script src="{% static 'users/js/users.js' %}"></script>
 {% endblock %}
 
-
 {% block body %}
  <style>
         .errorlist {
             color: red;
         }
     </style>
-<div class="flex-center">
-    <div class="container">
-        <div class="flex-center">
-            <div class="unit-1-2 unit-1-on-mobile">
-                <h3>注册</h3>
-                <form class="form" action="{% url 'reset' active_code %}" method="post">
+    <section class="container a-join">
+    <div class="box">
+        <form class="form" action="{% url 'reset' active_code %}" method="post">
                     {% csrf_token %}
                     {% for field in modify_form %}
                         {{ field.label_tag }}
@@ -39,8 +35,7 @@
                     {% endif %}
                     <button type="submit" class="btn btn-primary btn-block">确认修改</button>
                 </form>
-            </div>
-        </div>
     </div>
-</div>
+      </section>
+
 {% endblock %}

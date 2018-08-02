@@ -6,51 +6,22 @@
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+    {% for banner in banner_list %}
+          <li data-target="#carousel-example-generic" data-slide-to="{{ banner.pk }}"></li>
+      {% endfor %}
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <div class="carousel-caption">
-        <h1>标题1</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem commodi cum, delectus distinctio enim libero minus molestiae nemo, nesciunt obcaecati pariatur, rem sed sit tempora tempore ullam veritatis. Aliquid.</p>
-      </div>
-    </div>
-    <div class="item">
-      <div class="carousel-caption">
-          <h1>标题1</h1>
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem commodi cum, delectus distinctio enim libero minus molestiae nemo, nesciunt obcaecati pariatur, rem sed sit tempora tempore ullam veritatis. Aliquid.</p>
-      </div>
-    </div>
-    <div class="item">
-      <div class="carousel-caption">
-          <h1>标题3</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem commodi cum, delectus distinctio enim libero minus molestiae nemo, nesciunt obcaecati pariatur, rem sed sit tempora tempore ullam veritatis. Aliquid.</p>
-      </div>
-    </div>
-      <div class="item">
-      <div class="carousel-caption">
-          <h1>标题3</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem commodi cum, delectus distinctio enim libero minus molestiae nemo, nesciunt obcaecati pariatur, rem sed sit tempora tempore ullam veritatis. Aliquid.</p>
-      </div>
-    </div>
-      <div class="item">
-      <div class="carousel-caption">
-          <h1>标题3</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem commodi cum, delectus distinctio enim libero minus molestiae nemo, nesciunt obcaecati pariatur, rem sed sit tempora tempore ullam veritatis. Aliquid.</p>
-      </div>
-    </div>
-      <div class="item">
-      <div class="carousel-caption">
-          <h1>标题3</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem commodi cum, delectus distinctio enim libero minus molestiae nemo, nesciunt obcaecati pariatur, rem sed sit tempora tempore ullam veritatis. Aliquid.</p>
-      </div>
-    </div>
+       {% for banner in banner_list %}
+           <div class="item {% if banner_list.first == banner %} active {% endif %}">
+               <div class="carousel-caption">
+                <h1>{{ banner.title }}</h1>
+                <p>{{ banner.details }}</p>
+               </div>
+            </div>
+      {% endfor %}
+
   </div>
     <div>
         <a class="k-more" href="#">了解更多</a>
@@ -66,118 +37,51 @@
   </a>
 </div>
 </section>
-
 {#开设课程#}
-
 <section class="courses container">
 <div class="sev-bar"><a href="{% url 'course_list' %}">OUR COURSES</a></div>
 <div class="row">
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
-        <a href="#"><img src="{% static 'manage_site/imgs/round1.png' %}" class="img-responsive center-block" alt=""></a>
-        <h2>课程1</h2>
+    {% for course in course_list %}
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+        <a href="{% url 'course_detail' course.course_name.id %}"><img src="{{ course.img.url }}" class="img-responsive center-block" alt=""></a>
+        <h2>{{ course.course_name }}</h2>
         <div class="text-box">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur corporis eligendi ipsa labore natus neque obcaecati quasi qui quibusdam, unde vitae voluptatem. Earum maiores molestias nisi quaerat quis, repellat vel.</p>
+            <p>{{ course.des }}</p>
         </div>
     </div>
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
-        <a href=""><img src="{% static 'manage_site/imgs/round2.png' %}" class="img-responsive center-block" alt=""></a>
-        <h2>课程2</h2>
-        <div class="text-box">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur corporis eligendi ipsa labore natus neque obcaecati quasi qui quibusdam, unde vitae voluptatem. Earum maiores molestias nisi quaerat quis, repellat vel.</p>
-        </div>
-    </div>
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
-        <a href=""><img src="{% static 'manage_site/imgs/round3.png' %}" class="img-responsive center-block" alt=""></a>
-        <h2>课程3</h2>
-        <div class="text-box">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur corporis eligendi ipsa labore natus neque obcaecati quasi qui quibusdam, unde vitae voluptatem. Earum maiores molestias nisi quaerat quis, repellat vel.</p>
-        </div>    </div>
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
-        <a href=""><img src="{% static 'manage_site/imgs/round4.png' %}" class="img-responsive center-block" alt=""></a>
-        <h2>课程4</h2>
-        <div class="text-box">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur corporis eligendi ipsa labore natus neque obcaecati quasi qui quibusdam, unde vitae voluptatem. Earum maiores molestias nisi quaerat quis, repellat vel.</p>
-        </div>    </div>
+    {% endfor %}
 </div>
 
 </section>
-
 {# 精彩瞬间   #}
 <section class="container-fluid show-time">
 <div class="container">
     <h2>精彩瞬间</h2>
     <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-6">
+        {% for img_show in img_show_list %}
+            <div class="col-lg-4 col-md-4 col-sm-6">
     <div class="thumbnail">
-        <a href='' data-toggle="modal" data-target="#myModal">
-            <img src="{% static 'manage_site/imgs/微信图片_20170520104817.jpg' %}" alt="...">
+        <a href='' data-toggle="modal" data-target="#{{ img_show.id }}">
+            <img src="{{ img_show.image.url }}" alt="...">
             <div class="details" style="background: url({% static 'manage_site/imgs/details.png' %}) no-repeat center"></div>
         </a>
     </div>
   </div>
-        <div class="col-lg-4 col-md-4 col-sm-6">
-    <div class="thumbnail">
-        <a href='' data-toggle="modal" data-target="#myModa2">
-      <img src="{% static 'manage_site/imgs/微信图片_20170520110620.jpg' %}" alt="...">
-       <div class="details" style="background: url({% static 'manage_site/imgs/details.png' %}) no-repeat center"></div>
-        </a>
-    </div>
-  </div>
-        <div class="col-lg-4 col-md-4 col-sm-6">
-    <div class="thumbnail">
-        <a href='' data-toggle="modal" data-target="#myModa3">
-      <img src="{% static 'manage_site/imgs/IMG_5279.JPG' %}" alt="...">
-      <div class="details" style="background: url({% static 'manage_site/imgs/details.png' %}) no-repeat center"></div>
-        </a>
-    </div>
-  </div>
-</div>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade" id="{{ img_show.id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">测试标题1</h4>
+        <h4 class="modal-title" id="myModalLabel">{{ img_show.image_name }}</h4>
       </div>
       <div class="modal-body">
-        <img class="img-responsive center-block img-rounded" src="{% static 'manage_site/imgs/微信图片_20170520104817.jpg' %}" alt="...">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, animi cum cumque deserunt ducimus ea eos eveniet exercitationem facere fuga illum libero minus non possimus quis quisquam rem rerum unde!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, animi cum cumque deserunt ducimus ea eos eveniet exercitationem facere fuga illum libero minus non possimus quis quisquam rem rerum unde!</p>
+        <img class="img-responsive center-block img-rounded" src="{{ img_show.image.url }}" alt="...">
+        <p>{{ img_show.des }}</p>
       </div>
     </div>
   </div>
 </div>
-    <div class="modal fade" id="myModa2" tabindex="-1" role="dialog" aria-labelledby="myModalLabe2">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">测试标题2</h4>
-      </div>
-      <div class="modal-body">
-          <img class="img-responsive center-block img-rounded"  src="{% static 'manage_site/imgs/微信图片_20170520110620.jpg' %}" alt="...">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, animi cum cumque deserunt ducimus ea eos eveniet exercitationem facere fuga illum libero minus non possimus quis quisquam rem rerum unde!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, animi cum cumque deserunt ducimus ea eos eveniet exercitationem facere fuga illum libero minus non possimus quis quisquam rem rerum unde!</p>
-      </div>
-    </div>
-  </div>
-</div>
-    <div class="modal fade" id="myModa3" tabindex="-1" role="dialog" aria-labelledby="myModalLabe3">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">测试标题3</h4>
-      </div>
-      <div class="modal-body">
-      <img class="img-responsive center-block img-rounded"  src="{% static 'manage_site/imgs/IMG_5279.JPG' %}" alt="...">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, animi cum cumque deserunt ducimus ea eos eveniet exercitationem facere fuga illum libero minus non possimus quis quisquam rem rerum unde!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, animi cum cumque deserunt ducimus ea eos eveniet exercitationem facere fuga illum libero minus non possimus quis quisquam rem rerum unde!</p>
-      </div>
-    </div>
-  </div>
+        {% endfor %}
 </div>
 </div>
 
@@ -187,29 +91,17 @@
 <div class="container preview">
     <div class="title">
         <h2>活动预告</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid atque aut, corporis, dicta dolore earum eligendi est fugit perspiciatis placeat qui quidem quo quos ratione reprehenderit sapiente sed voluptas?</p>
+        <hr/>
+        <p style="text-align: center">FITA社团的公告将会展示在这里</p>
     </div>
     <div class="pre-inner row">
-        <div class="col-lg-3 col-md-3 col-sm-6">
-            <h4>活动1</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, atque beatae doloremque dolores enim exercitationem iure iusto minus omnis perferendis placeat quam quis recusandae rem reprehenderit rerum tempora ullam voluptates?</p>
-            <button class="btn btn-default btn-primary">详细信息</button>
+        {% for pre in pre_list %}
+            <div class="col-lg-3 col-md-3 col-sm-6">
+            <h4>{{ pre.name }}</h4>
+            <p>{{ pre.des }}</p>
+            <button class="btn btn-default btn-primary"><a href="{% url 'act-join' pre.id %}">详细信息</a></button>
         </div>
-         <div class="col-lg-3 col-md-3 col-sm-6">
-            <h4>活动1</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, atque beatae doloremque dolores enim exercitationem iure iusto minus omnis perferendis placeat quam quis recusandae rem reprehenderit rerum tempora ullam voluptates?</p>
-            <button class="btn btn-default btn-primary">详细信息</button>
-        </div>
-         <div class="col-lg-3 col-md-3 col-sm-6">
-            <h4>活动1</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, atque beatae doloremque dolores enim exercitationem iure iusto minus omnis perferendis placeat quam quis recusandae rem reprehenderit rerum tempora ullam voluptates?</p>
-            <button class="btn btn-default btn-primary">详细信息</button>
-        </div>
-         <div class="col-lg-3 col-md-3 col-sm-6">
-            <h4>活动1</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, atque beatae doloremque dolores enim exercitationem iure iusto minus omnis perferendis placeat quam quis recusandae rem reprehenderit rerum tempora ullam voluptates?</p>
-            <button class="btn btn-default btn-primary">详细信息</button>
-        </div>
+        {% endfor %}
     </div>
 </div>
 </section>
@@ -217,71 +109,31 @@
 <section class="container">
     <div class="member-title">
         <h2>核心成员</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid atque aut, corporis, dicta dolore earum eligendi est fugit perspiciatis placeat qui quidem quo quos ratione reprehenderit sapiente sed voluptas?</p>
+        <p>FITA社团的核心成员们</p>
     </div>
     <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-4">
-        <a href='' data-toggle="modal" data-target="#member1">
-            <img class="img-circle img-responsive center-block" src="{% static 'manage_site/imgs/default_show.jpg' %}" alt="...">
-            <div class="details" style="background: url({% static 'manage_site/imgs/details.png' %}) no-repeat center"></div>
+        {% for person in core_member_list %}
+            <div class="col-lg-4 col-md-4 col-sm-4">
+        <a href='javascript:' data-toggle="modal" data-target="#{{ person.id }}">
+            <img class="img-circle img-responsive center-block" src="{{ person.image.url }}" alt="...">
         </a>
         </div>
-         <div class="col-lg-4 col-md-4 col-sm-4">
-        <a href='' data-toggle="modal" data-target="#member2">
-            <img class="img-circle img-responsive center-block" src="{% static 'manage_site/imgs/default_show.jpg' %}" alt="...">
-            <div class="details" style="background: url({% static 'manage_site/imgs/details.png' %}) no-repeat center"></div>
-        </a>
-        </div>
-         <div class="col-lg-4 col-md-4 col-sm-4">
-        <a href='' data-toggle="modal" data-target="#member3">
-            <img class="img-circle img-responsive center-block" src="{% static 'manage_site/imgs/default_show.jpg' %}" alt="...">
-            <div class="details" style="background: url({% static 'manage_site/imgs/details.png' %}) no-repeat center"></div>
-        </a>
-        </div>
+            <div class="modal fade" id="{{ person.id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">{{ person.name }}</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p>担任职务:{{ person.postion }}</p>
+                          <p>{{ person.des }}</p>
+                      </div>
+                     </div>
+                </div>
+            </div>
+        {% endfor %}
      </div>
-<div class="modal fade" id="member1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">成员1姓名</h4>
-      </div>
-      <div class="modal-body">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, animi cum cumque deserunt ducimus ea eos eveniet exercitationem facere fuga illum libero minus non possimus quis quisquam rem rerum unde!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, animi cum cumque deserunt ducimus ea eos eveniet exercitationem facere fuga illum libero minus non possimus quis quisquam rem rerum unde!</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="member2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">成员2姓名</h4>
-      </div>
-      <div class="modal-body">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, animi cum cumque deserunt ducimus ea eos eveniet exercitationem facere fuga illum libero minus non possimus quis quisquam rem rerum unde!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, animi cum cumque deserunt ducimus ea eos eveniet exercitationem facere fuga illum libero minus non possimus quis quisquam rem rerum unde!</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="member3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">成员3姓名</h4>
-      </div>
-      <div class="modal-body">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, animi cum cumque deserunt ducimus ea eos eveniet exercitationem facere fuga illum libero minus non possimus quis quisquam rem rerum unde!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, animi cum cumque deserunt ducimus ea eos eveniet exercitationem facere fuga illum libero minus non possimus quis quisquam rem rerum unde!</p>
-      </div>
-    </div>
-  </div>
-</div>
-
 </section>
 
 {% endblock %}

@@ -1,22 +1,64 @@
 {% extends 'manage_site/base.html' %}
+{% load  static %}
+{% block page_title %}
+    第二课堂
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'courses/course.css' %}">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css
+">
+{% endblock %}
 
 {% block body %}
-    <h2>课程列表页</h2>
-    <br>
-    {% for course in course_list %}
-        <div>
-             <br>
-            <p>课程名称：<a href="{% url 'course_detail' course.id %}">{{ course.name }}</a></p>
-            <img src="{{ course.image.url }}" alt="">
-            <p>课程添加时间：{{ course.add_time }}</p>
-            <p>点击数：{{ course.click_nums }}</p>
-            <p>学习人数：{{ course.students }}</p>
-             <br>
+<section class="container c-list">
+<div class="row">
+    <div class="row  col-lg-9">
+  {% for course in course_list %}
+   <div class="courses-item col-sm-6 col-md-4 col-lg-4">
+    <div class="thumbnail">
+        <a href="{% url 'course_detail' course.id %}"><img src="{{ course.image.url }}" alt=""></a>
+        <div class="caption">
+        <h4>{{ course.name }}</h4>
+            <p><span style="float: left" class="glyphicon glyphicon-hand-up">点击:{{ course.click_nums }}</span>
+            <span style="float: right;" class="glyphicon glyphicon-user">参与:{{ course.students }}</span></p>
+        <div style="clear: both;margin-bottom: 5px">
+            <p style="padding-top: 17px">难度:{{ course.degree }}</p>
+        </div>
+            <div class="des">
+                <p>{{ course.description }}</p>
             </div>
+      </div>
+    </div>
+  </div>
     {% endfor %}
+    </div>
+    <div class="col-lg-3 hidden-md side-bar">
+        <div class="hot-list">
+            <div class="hot">
+            <h3>热门活动</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, ad alias aliquam consequatur culpa doloribus, et facilis itaque laborum maxime nisi nobis nostrum odit qui reprehenderit sunt, tenetur vero voluptatum.</p>
+        </div>
+            <div class="hot">
+            <h3>热门活动</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, ad alias aliquam consequatur culpa doloribus, et facilis itaque laborum maxime nisi nobis nostrum odit qui reprehenderit sunt, tenetur vero voluptatum.</p>
+        </div>
+        </div>
+        <div class="adv-list">
+            <div class="adv">
+                <h3>广告位招租</h3>
+                <img src="" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eaque perspiciatis saepe sint. Laudantium odio sapiente sequi unde. Adipisci architecto deleniti error mollitia quae reiciendis rem sit tempora. Quam, quasi.</p>
+            </div>
+            </div>
+       </div>
+</div>
+
+</section>
 
     <!--分页-->
-     <ul class="pagination justify-content-center">
+    <section class="page-slice">
+         <ul class="pagination justify-content-center">
         {% if course_list.has_previous %}
         <li class="page-item">
             <a class="page-link" href="{% url 'course_list' %}?page={{ course_list.previous_page_number }}" aria-label="Previous">
@@ -43,4 +85,5 @@
         </li>
         {% endif %}
     </ul>
+    </section>
 {% endblock %}

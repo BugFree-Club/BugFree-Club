@@ -43,7 +43,7 @@
                 {
                     var imageData = this.getDataURL();
                     var b64 = imageData.replace('data:image/png;base64,','');
-                    var binary = atob(b64);
+                    console.log(binary);
                     var array = [];
                     for (var i = 0; i < binary.length; i++) {
                         array.push(binary.charCodeAt(i));

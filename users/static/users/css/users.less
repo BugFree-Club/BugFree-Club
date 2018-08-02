@@ -15,7 +15,10 @@
     }
   }
 }
+body{
+    background-color: #EEEEEE;
 
+}
 
 .hovertreecontainer {
 	width: 400px;
@@ -79,49 +82,6 @@
 	line-height: 400px;
 	background: rgba(0,0,0,0.7);
 }
-.Btnsty_peyton{ float: right;
-   width: 66px;
-  display: inline-block;
-  margin-bottom: 10px;
-  height: 57px;
-  line-height: 57px;
-  font-size: 20px;
-  color: #FFFFFF;
-  margin:0px 2px;
-  background-color: #f38e81;
-  border-radius: 3px;
-  text-decoration: none;
-  cursor: pointer;
-  box-shadow: 0px 0px 5px #B0B0B0;
-  border: 0px #fff solid;}
-/*选择文件上传*/
-.new-contentarea {
-	width: 165px;
-	overflow:hidden;
-	margin: 0 auto;
-	position:relative;float:left;
-}
-.new-contentarea label {
-	width:100%;
-	height:100%;
-	display:block;
-}
-.new-contentarea input[type=file] {
-	width:188px;
-	height:60px;
-	background:#333;
-	margin: 0 auto;
-	position:absolute;
-	right:50%;
-	margin-right:-94px;
-	top:0;
-	right/*\**/:0\9;
-	margin-right/*\**/:0\9;
-	width/*\**/:10px\9;
-	opacity:0;
-	filter:alpha(opacity=0);
-	z-index:2;
-}
 a.upload-img{
 	width:165px;
 	display: inline-block;
@@ -142,3 +102,64 @@ a.upload-img:hover{
 }
 
 .tc{text-align:center;}
+.btn-group{
+  float: left;
+  margin-left: 17%;
+}
+button{
+  label{
+    margin: 0;
+  }
+}
+.modal-footer{
+  margin-top: 60px;
+}
+
+//用户导航栏
+.u-nav{
+  height: 125px;
+  .nav-tabs{
+    margin-top: 13px;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+//用户课程列表页
+.thumbnail{
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+.course-list{
+  .thumbnail{
+    &:hover{
+      box-shadow: rgba(0, 0, 0, 0.3) 0 2px 8px;
+      transition: all 0.3s;
+    }
+  }
+}
+
+.a-join{
+  position: relative;
+  height: 600px;
+  .box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 100%;
+    width: 400px;
+    border-radius: 20px;
+    //background-color: rgba(1,1,1,0.1);
+    padding: 20px;
+    &:hover{
+      box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+      transform: translate3d(0,-2px.0);
+    }
+  }
+}

@@ -3,16 +3,15 @@ from datetime import datetime
 from courses.models import Course
 
 class Banner(models.Model):
-    '''主页轮播图功能'''
-    title = models.CharField(max_length=100, verbose_name="标题")  # 轮播图标题
-    image = models.ImageField(upload_to="manage_site/banner/%Y/%m", verbose_name="轮播图", max_length=100)  # 轮播图图像地址
-   #url = models.URLField(max_length=200, verbose_name="访问地址",blank=True,null=True)  # 轮播图的url
-    index = models.IntegerField(default=100, verbose_name="显示顺序")  # 轮播图的显示顺序编号
-    add_time = models.DateTimeField(default=datetime.now, verbose_name="添加时间")  # 轮播图添加时间
+    '''主页轮播公告功能'''
+    title = models.CharField(max_length=100, verbose_name="标题",default='未填')
+    details = models.TextField(max_length=500,verbose_name='公告内容',default='未填')
+    add_time = models.DateTimeField(default=datetime.now, verbose_name="添加时间")
 
     class Meta:
-        verbose_name = "轮播图"
+        verbose_name = "轮播公告"
         verbose_name_plural = verbose_name
+        ordering = ['-add_time']
 
     def __str__(self):
         return self.title
@@ -51,7 +50,7 @@ class IndexImgShow(models.Model):
 class IndexCoreMembers(models.Model):
     '''主页核心成员'''
     name = models.CharField(max_length=20,verbose_name='核心成员姓名')
-    image = models.ImageField(upload_to='manage_site/member/%Y/%',max_length=100,verbose_name='成员照片')
+    image = models.ImageField(upload_to='manage_site/member/%Y/%d',max_length=100,verbose_name='成员照片')
     postion = models.CharField(max_length=30,verbose_name='担任职位')
     des = models.TextField(max_length=200,verbose_name='简单描述')
     is_shown = models.BooleanField(default=True, verbose_name='是否显示')
@@ -64,15 +63,24 @@ class IndexCoreMembers(models.Model):
 
 
 
-class IndexHonorWall(models.Model):
-    '''主页荣誉墙'''
-    name = models.CharField(max_length=20, verbose_name='荣誉名称')
+
+
+
+
+class Preview(models.Model):
+    '''主页活动预告'''
+    is_shown = models.BooleanField(default=True,verbose_name='首页显示')
+
+    people = models.IntegerField(verbose_name='已报名人数',default=0)
+    name = models.CharField(max_length=20, verbose_name='活动名称')
     des = models.TextField(max_length=200, verbose_name='简单描述')
-    is_shown = models.BooleanField(default=True, verbose_name='是否显示')
+    details = models.TextField(max_length=500,verbose_name='详细信息')
+    add_time = models.DateTimeField(default=datetime.now, verbose_name="添加时间")
 
     class Meta:
-        verbose_name = "荣誉墙"
+        verbose_name = "活动预告"
         verbose_name_plural = verbose_name
+        ordering = ['-add_time']
 
     def __str__(self):
         return self.name

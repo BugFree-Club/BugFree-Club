@@ -1,0 +1,31 @@
+{% extends 'manage_site/base.html' %}
+{% load staticfiles %}
+{% block page_title %}活动报名{% endblock %}
+{% block css %}
+    <link rel="stylesheet" href="{% static 'manage_site/css/activities.css' %}">
+{% endblock %}
+{% block body %}
+
+    <section class="container a-join">
+    <div class="box">
+        <h1>{{ act.name }}</h1>
+        <p>{{ act.details }}</p>
+        <p style="text-align: center"><span class="glyphicon glyphicon-user"> 已有</span>{{ act.people }}人报名</p>
+        <button class="btn btn-primary btn-block act-join">报名</button>
+    </div>
+
+    </section>
+   <script>
+     $.ajaxSetup({
+        data: {csrfmiddlewaretoken: '{{ csrf_token }}' }
+        });
+        $('.act-join').click(function () {
+            $.ajax({
+                url:'{% url 'act-join' act.id%}',
+                type:'POST',
+                data:{'act_id':{{ act.id }}},
+                success: function(data) {alert(data.data);}
+            })
+        });
+    </script>
+{% endblock %}

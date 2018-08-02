@@ -15,6 +15,8 @@
 {% endblock %}
 
 {% block body %}
+    <!-- todo:message框框 -->
+    <!-- 个人信息 -->
 <section class="container">
 <div class="user-info">
 <div class="user-img ">
@@ -57,11 +59,11 @@
         </div>
         <!-- 头像弹出框 -->
         <div class="modal fade" id="changeImg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
+            <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="changeInfo" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">修改个人信息</h4>
+                <h4 class="modal-title" id="myModalLabel">修改头像</h4>
               </div>
               <div class="modal-body">
                 <div class="hovertreecontainer">
@@ -69,25 +71,19 @@
                     <div class="thumbBox"></div>
                     <div class="spinner" style="display: none">Loading...</div>
                 </div>
-                <div class="action">
-                    <div class="new-contentarea tc">
-                    <a href="javascript:void(0)" class="upload-img">
-                            <label for="upload-file">上传图像</label>
-                      </a>
-                    <input type="file" class="" name="upload-file" id="upload-file" />
-                    </div>
-                    <input type="button" id="btnCrop"  class="Btnsty_peyton" value="裁切">
-                    <input type="button" id="btnZoomIn" class="Btnsty_peyton" value="+"  >
-                    <input type="button" id="btnZoomOut" class="Btnsty_peyton" value="-" >
-                </div>
                 <div class="cropped"></div>
-                    <form id="user-img" method="post" enctype="multipart/form-data">
-                        {% csrf_token %}
-                        <input type="file" id="img-input" name="user_img" style="display: none">
-                    </form>
                 </div>
               </div>
               <div class="modal-footer">
+                  <button  type="button" class="btn btn-info" style="float: left;line-height: 14px">
+                      <label for="upload-file">上传图像</label>
+                  </button>
+                  <input type="file" class="" name="upload-file" id="upload-file" style="display: none" />
+                  <div class="btn-group" role="group" aria-label="Default button group">
+                      <button type="button" id="btnZoomOut" class="btn btn-default ">缩小</button>
+                      <button type="button" id="btnCrop" class="btn btn-default ">剪切</button>
+                      <button type="button" id="btnZoomIn" class="btn btn-default ">放大</button>
+    </div>
                 <button type="button" class="btn btn-danger" data-dismiss="modal">关闭</button>
                 <button id="img-button" type="button" class="btn btn-primary">保存</button>
               </div>
@@ -98,7 +94,7 @@
 <script>
 {#修改个人信息#}
 $.ajaxSetup({
-    data: { csrfmiddlewaretoken: '{{ csrf_token }}' }
+    data:{csrfmiddlewaretoken:'{{ csrf_token }}'}
 });//切记django的ajax使用post需要加上这个参数 否则csrf验证过不了
 $("#info-button").click(function () {
     $.ajax({
@@ -123,27 +119,39 @@ $("#info-button").click(function () {
      });
  });
 
+//===================base64转为blob==================
+function convertBase64UrlToBlob(urlData){
+
+    var bytes=window.atob(urlData.split(',')[1]);        //去掉url的头，并转换为byte
+
+    //处理异常,将ascii码小于0的转换为大于0
+    var ab = new ArrayBuffer(bytes.length);
+    var ia = new Uint8Array(ab);
+    for (var i = 0; i < bytes.length; i++) {
+        ia[i] = bytes.charCodeAt(i);
+    }
+    return new Blob( [ab] , {type : 'image/png'});
+}
+
+
+
+
 $("#img-button").click(function () {
-  $.ajax({
+    var f_img = convertBase64UrlToBlob($('#f-img')[0].src);
+    var formData = new FormData();
+    formData.append('user_img',f_img);
+    formData.append('csrfmiddlewaretoken','{{ csrf_token }}');
+    $.ajax({
         type: "POST",
         url:'{% url 'change_img' user_id %}',
-        data:$('#user-img').serialize(),
-        processData:false,
-        contentType:false,
+        data:formData,
+        processData : false,
+        contentType : false,
         error: function() {
          alert('服务器正忙，请稍后再试');
         },
         success: function(data) {
-             if(data.data == 1) {
-                 alert('数据不符合规范，请重新输入');
-             }
-             if(data.data == 0){
-                 alert('修改成功！');
-                 window.location.href="{% url 'user_info' user_id %}";
-             }
-             if(data.data == -1){
-                 alert('您没有操作权限');
-             }
+            alert(data.data);
         }
      });
  });
@@ -168,9 +176,8 @@ $(function() {
 	});
 	$('#btnCrop').on('click', function(){
 		var img = cropper.getDataURL();
-		$('#img-input').value = img;
 		$('.cropped').html('');
-		$('.cropped').append('<img src="'+img+'" align="absmiddle" style="width:64px;margin-top:4px;border-radius:64px;box-shadow:0px 0px 12px #7E7E7E;" ><p>64px*64px</p>');
+		$('.cropped').append('<img src="'+img+'" align="absmiddle" id="f-img" style="width:64px;margin-top:4px;border-radius:64px;box-shadow:0px 0px 12px #7E7E7E;" ><p>64px*64px</p>');
 		$('.cropped').append('<img src="'+img+'" align="absmiddle" style="width:128px;margin-top:4px;border-radius:128px;box-shadow:0px 0px 12px #7E7E7E;"><p>128px*128px</p>');
 		$('.cropped').append('<img src="'+img+'" align="absmiddle" style="width:180px;margin-top:4px;border-radius:180px;box-shadow:0px 0px 12px #7E7E7E;"><p>180px*180px</p>');
 	});
@@ -197,20 +204,46 @@ $(function() {
 
 
 </section>
+    <!-- 二级导航 -->
+<section class="container">
+<div class="u-nav">
+<ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="#">课程</a></li>
+  <li role="presentation"><a href="#">社团活动</a></li>
+  <li role="presentation"><a href="#">敬请期待</a></li>
+</ul>
+</div>
+</section>
+    <!-- 课程列表 -->
+<section class="container course-list">
+    <div class="row" style="min-height: 300px">
+    {% if all_course %}
+             {% for course in all_course %}
+         <div class="courses-item col-sm-6 col-md-4 col-lg-4">
+    <div class="thumbnail">
+        <a href="{% url 'course_detail' course.course.id %}"><img src="{{ course.course.image.url }}" alt=""></a>
+        <div class="caption">
+        <h3>{{ course.course.name }}</h3>
+        <p>已有{{ course.course.students }}人参与</p>
+        <p>浏览{{ course.course.click_nums }}次</p>
+        <p>{{ course.course.description }}</p>
+      </div>
+    </div>
+  </div>
+    {% endfor %}
+    {% else %}
+        <h4>您还没有报名任何活动</h4>
+        <button class="btn-default btn-primary"><a href="{% url 'course_list' %}">随便逛逛</a></button>
+    {% endif %}
+    </div>
+</section>
 {% endblock %}
 
 
 {% block aaa %}
 
-    <a href="">修改个人信息（弹窗ajax）</a>
-        <a href="">修改密码</a>
-        <a href="">注销用户</a>
-          <h2>注册的课程</h2>
-    {% for course in all_course %}
-        <a href="{% url 'course_detail' course.course.id %}"> <p>课程名称：{{ course.course.name }}</p></a>
-        <div>课程图片：{{ course.course.image }}</div>
-        <div>课程进度：</div>
-    {% endfor %}
+<h2>注册的课程</h2>
+
 
 
 

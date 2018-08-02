@@ -18,35 +18,16 @@
             color: red;
         }
     </style>
-<div class="flex-center">
-    <div class="container">
-        <div class="flex-center">
-            <div class="unit-1-2 unit-1-on-mobile">
-                <h3>注册</h3>
-                <form class="form" action="{% url 'register' %}" method="post">
-                    {% csrf_token %}
-                    {% for field in RegisterForm %}
-                        {{ field.label_tag }}
-                        {{ field }}
-                        {{ field.errors }}
-                        {% if field.help_text %}
-                            <p class="help text-small text-muted">{{ field.help_text|safe }}</p>
-                        {% endif %}
-                    {% endfor %}
-                    {% if err_msg %}
-                    <script>
-                        (function () {
-                            alert('{{ err_msg }}')
-                        })()
-                    </script>
-                    {% endif %}
-                    <button type="submit" class="btn btn-primary btn-block">注册</button>
-                </form>
-                <div class="flex-center top-gap text-small">
-                    <a href="{% url 'login' %}">已有账号登录</a>
-                </div>
-            </div>
-        </div>
+    <section class="container a-join">
+    <div class="box">
+        <form class="form form-group" action="{% url 'login' %}" method="post">
+            {% csrf_token %}
+            {{ RegisterForm.as_p }}
+            <button type="submit" class="btn btn-primary btn-block">登录</button>
+        </form>
+            <button class="btn btn-block btn-default"> <span>没有账号？<a href="{% url 'register' %}">立即注册</a></span></button>
+        <button class="btn btn-block btn-default"><span><a href="{% url 'forget' %}">忘记密码？</a></span></button>
     </div>
-</div>
+      </section>
+
 {% endblock %}

@@ -1,7 +1,7 @@
 {% extends 'manage_site/base.html' %}
 {% load static %}
 {% block page_title %}
-    忘记密码
+    密码重设
 {% endblock %}
 
 {% block css %}
@@ -12,19 +12,15 @@
     <script src="{% static 'users/js/users.js' %}"></script>
 {% endblock %}
 
-
 {% block body %}
  <style>
         .errorlist {
             color: red;
         }
     </style>
-<div class="flex-center">
-    <div class="container">
-        <div class="flex-center">
-            <div class="unit-1-2 unit-1-on-mobile">
-                <h3>注册</h3>
-                <form id="forget" method="post">
+    <section class="container a-join">
+    <div class="box">
+        <form id="forget" method="post">
                     {% csrf_token %}
                     {{ email_form.non_field_errors }}
                     {% for field in email_form %}
@@ -38,13 +34,11 @@
                     {% if err_msg %}
                         <p class="errorlist">{{ err_msg }}</p>
                     {% endif %}
-                    <button id="f-btn" type="button" class="btn btn-primary btn-block">发送验证码</button>
+                    <button id="f-btn" type="button" class="btn btn-primary btn-block" style="margin-top: 40px">发送验证码</button>
                 </form>
-            </div>
-        </div>
     </div>
-</div>
-   <script>
+      </section>
+       <script>
         {#修改个人信息#}
         $.ajaxSetup({
             data: {csrfmiddlewaretoken: '{{ csrf_token }}' }
@@ -59,9 +53,12 @@
                 },
                 success: function(data) {
                     alert(data.data);
+                    window.location.href = '/';
                 }
              });
          });
         {#修改密码#}
    </script>
+
+
 {% endblock %}

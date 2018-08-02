@@ -16,20 +16,25 @@ class RegisterForm(UserCreationForm):
     class Meta(UserCreationForm.Meta):
         model = UserProfile
         fields = ['username', 'email', 'gender']
-
+        widgets = {
+            'username': forms.TextInput(attrs={'class': "form-control"}),
+            'email': forms.EmailInput(attrs={'class': "form-control"}),
+            'gender': forms.Select(attrs={'class': "form-control"}),
+        }
 
 class LoginForm(forms.Form):
-    username = forms.CharField(required=True,label='用户名')
-    password = forms.CharField(required=True, min_length=5,label='密码')
+    username = forms.CharField(required=True,label='用户名',widget=forms.TextInput(attrs={'class': "form-control"}))
+    password = forms.CharField(required=True, min_length=5,label='密码',widget=forms.PasswordInput(attrs={'class': "form-control"}))
+
 
 
 class ForgetForm(forms.Form):
-    email = forms.EmailField(required=True,label='您的邮箱')
+    email = forms.EmailField(required=True,label='您的邮箱',widget=forms.EmailInput(attrs={'class': "form-control"}))
 
 
 class ModifyPwdForm(forms.Form):
-    password1 = forms.CharField(required=True, min_length=5,label='新的密码')
-    password2 = forms.CharField(required=True, min_length=5,label='确认密码')
+    password1 = forms.CharField(required=True, min_length=5,label='新的密码',widget=forms.PasswordInput(attrs={'class': "form-control"}))
+    password2 = forms.CharField(required=True, min_length=5,label='确认密码',widget=forms.PasswordInput(attrs={'class': "form-control"}))
 
 
 
