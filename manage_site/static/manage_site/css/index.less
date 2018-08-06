@@ -13,7 +13,9 @@ nav {
     overflow-y: unset;
   }
 }
-
+html{
+  font-family:Microsoft YaHei;
+}
 .big-slide{
   position: relative;
 }
@@ -26,6 +28,15 @@ nav {
   left: 50%;
   transform: translate(-50%,-50%);
 }
+button{
+a{
+  color: white !important;
+  &:hover{
+    text-decoration: none;
+  }
+}
+}
+
 
 
 .navbar {
@@ -38,10 +49,11 @@ nav {
 }
 
 .banner {
-  a:hover{
+
+  .k-more{
+      &:hover{
     text-decoration: none;
   }
-  .k-more{
     display: block;
     line-height: 50px;
     border-radius: 10px;
@@ -114,21 +126,28 @@ nav {
     margin: 40px 40px;
   }
   .thumbnail{
+    margin-bottom: 60px;
+    a{
+      img{
+        height: 232px;
+      }
+    }
     .details{
     position: absolute;
     height:42px ;
     width: 144px;
-    top: 50%;
+    top: 44%;
     left: 50%;
     transform:translate(-50%,-50%);
     display: none;
+    transition: all 0.2s;
   }
   }
 
 }
 .thumbnail:hover{
   .details{
-    display: block;
+    display: block;;
   }
 }
 

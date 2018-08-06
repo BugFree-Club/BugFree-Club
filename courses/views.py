@@ -18,7 +18,7 @@ class CourseList(View):
     def get(self,request):
         course_list = Course.objects.all()
 
-        paginator = Paginator(course_list, 2)
+        paginator = Paginator(course_list, 6)
         page = request.GET.get('page', 1)
         currentPage = int(page)
         try:

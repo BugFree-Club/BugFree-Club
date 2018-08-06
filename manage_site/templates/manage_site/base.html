@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% block title %}FITA社团{% endblock %}</title>
     <link href="{% static 'bootstrap-3.3.7/less/bootstrap.css' %}" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
       <link rel="stylesheet" href="{% static 'manage_site/css/animate.min.css' %}">
     <link rel="stylesheet" href="{% static 'manage_site/css/index.css' %}">
   {% block css %}
@@ -41,14 +42,13 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <div id="nav-cloud" class="visible-lg"  style="left: 130px; background-image: url({% static 'manage_site/imgs/hover.png'%}) ;position: absolute;height: 80px;width: 80px "></div>
         <ul class="nav navbar-nav">
-        <li class="nav-icon"><a href="#">社团主页 <span class="sr-only">(current)</span></a></li>
-        <li class="nav-icon"><a href="{% url 'course_list' %}">第二课堂</a></li>
-        <li class="nav-icon"><a href="#">社团风采</a></li>
-        <li class="nav-icon"><a href="#">活动预告</a></li>
-        <li class="nav-icon"><a href="#">核心成员</a></li>
-        <li class="nav-icon visible-lg"><a href="#">加入社团</a></li>
-        <li class="nav-icon visible-lg"><a href="#">联系我们</a></li>
-          {# 锚点滚动 #}
+        <li class="nav-icon"><a href="{% url 'index' %}">社团主页 <span class="sr-only">(current)</span></a></li>
+        <li class="nav-icon"><a class="cs" href="{% url 'course_list' %}">第二课堂</a></li>
+        <li class="nav-icon"><a class="st"  href="javascript:void(0)">社团风采</a></li>
+        <li class="nav-icon"><a class="pv" href="javascript:void(0)">活动预告</a></li>
+        <li class="nav-icon"><a class="mb" href="javascript:void(0)">核心成员</a></li>
+        <li class="nav-icon visible-lg"><a class="j" href="javascript:void(0)">加入社团</a></li>
+        <li class="nav-icon visible-lg"><a class="ct" href="javascript:void(0)">联系我们</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
           {% if user.is_authenticated %}
@@ -60,8 +60,8 @@
             <li><a href="#">参与过的活动</a></li>
             <li><a href="#"></a></li>
             <li role="separator" class="divider"></li>
-              <li><a href="#">修改密码</a></li>
-            <li><a href="#">注销</a></li>
+              <li><a href="{% url 'forget' %}">修改密码</a></li>
+            <li><a href="{% url 'logout' %}">注销</a></li>
           </ul>
         </li>
               {% else %}
@@ -105,7 +105,7 @@
                 <h3>加入社团</h3>
                 <p>FITA社团非常欢迎新人的加入 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci esse fugiat ipsum nostrum officia placeat quis soluta, velit. Delectus deserunt eligendi placeat quos vero. Alias debitis dicta et similique sunt!</p>
                 <form id="app-form" enctype="multipart/form-data">
-                    <input type='hidden' name='csrfmiddlewaretoken' value='eTI42g5nwWqef9zvd1a1Kq6ExXENjtZ5JWOCOedhZ4CNgAFeHlCHd1sDm4E92Y53' />
+                    {% csrf_token %}
                     <div class="form-group">
                         <label for="id_des">个人简介:</label>
                         <textarea name="des" cols="40" rows="4" class="form-control" placeholder="输入您的社团加入申请" required id="id_des"></textarea>
@@ -117,8 +117,8 @@
                 <h3>联系我们</h3>
                  <p>您的任何意见都能够帮助FITA社团前进！Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet distinctio itaque modi pariatur saepe sed suscipit. Commodi, consequatur cupiditate delectus ducimus ea, facilis officia, pariatur quaerat temporibus unde vel vitae?</p>
                  <form id="contact-form" enctype="multipart/form-data">
-                    <input type='hidden' name='csrfmiddlewaretoken' value='eTI42g5nwWqef9zvd1a1Kq6ExXENjtZ5JWOCOedhZ4CNgAFeHlCHd1sDm4E92Y53' />
-                    <div class="form-group">
+                     {% csrf_token%}
+                     <div class="form-group">
                         <label for="id_des">内容:</label>
                         <textarea name="des" cols="40" rows="4" class="form-control" placeholder="在这输入您的宝贵意见" required id="id_des"></textarea>
                     </div>
@@ -131,34 +131,72 @@
 <script src="{% static 'bootstrap-3.3.7/dist/js/bootstrap.js' %}"></script>
 <script src="{% static 'manage_site/js/index.js' %}"></script>
 <script>
-     $.ajaxSetup({
+        $('#app-button').click(function () {
+            {% if user.is_authenticated %}
+           $.ajaxSetup({
         data: {csrfmiddlewaretoken: '{{ csrf_token }}' }
         });
-        $('#app-button').click(function () {
-            $.ajax({
+                $.ajax({
                 url:'{% url 'application'%}',
                 type:'POST',
                 data:$('#app-form').serialize(),
                 success: function(data) {
                     alert(data.data)
                 }
-            })
+            });
+                {% else %}
+                alert('您必须先登录');
+            {% endif %}
+
         });
- $.ajaxSetup({
+    $('#contact-button').click(function () {
+        {% if user.is_authenticated %}
+             $.ajaxSetup({
         data: {csrfmiddlewaretoken: '{{ csrf_token }}' }
     });
-    $('#contact-button').click(function () {
-        $.ajax({
+
+             $.ajax({
             url:'{% url 'contact'%}',
             type:'POST',
             data:$('#contact-form').serialize(),
             success: function(data) {
                 alert(data.data)
             }
-        })
+        });
+        {% else %}
+           alert('您必须先登录');
+        {% endif %}
+
     });
 </script>
   {% block js %}
+      <!-- 锚点滚动 -->
+      <script>
+      $(function () {
+          var courseOffset = $('.courses').offset().top;
+          var showTimeOffset = $('.show-time').offset().top;
+          var previewOffset = $('.preview').offset().top;
+          var membersOffset = $('.member-title').offset().top;
+          
+          $('a.pv').click(function () {
+              $('html,body').animate({scrollTop:previewOffset},500)
+          });
+          $('a.mb').click(function () {
+              $('html,body').animate({scrollTop:membersOffset},500)
+          });
+          $('a.st').click(function () {
+              $('html,body').animate({scrollTop:showTimeOffset},500)
+          });
+          $('a.j').click(function () {
+              $('html,body').animate({scrollTop:membersOffset},500)
+          });
+          $('a.ct').click(function () {
+              $('html,body').animate({scrollTop:membersOffset},500)
+          });
+
+
+      })
+      </script>
   {% endblock %}
   </body>
 </html>

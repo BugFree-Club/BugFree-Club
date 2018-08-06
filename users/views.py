@@ -4,7 +4,7 @@
 # @Email   : 1227085585@qq.com
 # @Software: PyCharm
 
-import json
+import json,base64
 from django.shortcuts import render,redirect,HttpResponse,HttpResponseRedirect,reverse,Http404
 from django.views.generic import *
 from .form import *
@@ -14,6 +14,7 @@ from django.contrib.auth.hashers import make_password
 from operations.models import UserCourse
 from .models import UserProfile,EmailVerifyRecord
 from .utils import send_my_email
+
 
 
 
@@ -165,8 +166,11 @@ class ResetPasswordView(View):
         return render(request, "users/pwd_reset.html", locals())
 
 
-class ImgChangeApi(View):
+
+class ImgChangeApi(LoginRequiredMixin,View):
     def post(self, request,user_id):
-        user_img = request.FILES
-        print(user_img)
+        img = request.FILES.get('user_img')
+        request.user.image = img
+        request.user.save()
+        return HttpResponse('{"status":"success", "data":"修改成功"}', content_type='application/json')
 

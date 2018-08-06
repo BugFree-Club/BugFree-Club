@@ -28,9 +28,7 @@ xadmin.site.register(Contact, ContactAdmin)
 
 
 class BannerAdmin(object):
-    list_display = ['title', 'image', 'add_time']
-    search_fields = ['title', 'image', 'add_time']
-    list_filter = ['title', 'image', 'add_time']
+    list_display = ['title', 'details', 'add_time']
 
 
 xadmin.site.register(Banner, BannerAdmin)
@@ -59,9 +57,8 @@ class IndexCoreMembersAdmin(object):
 xadmin.site.register(IndexCoreMembers,IndexCoreMembersAdmin)
 
 
-class IndexHonorWallAdmin(object):
-    list_display = ['name', 'is_shown']
-    list_filter = ['is_shown']
+class IndexPreviewAdmin(object):
+    list_display = ['name', 'add_time','des']
 
 
-xadmin.site.register(IndexHonorWall,IndexHonorWallAdmin)
+xadmin.site.register(Preview,IndexPreviewAdmin)

@@ -4,12 +4,11 @@ from django.db import models
 
 from users.models import UserProfile
 from courses.models import Course,Lesson
+from manage_site.models import Preview
 
 
-
-
+# 评论 提问功能未开发
 class CourseComments(models.Model):
-    # 课程评论
     user = models.ForeignKey(UserProfile, verbose_name='用户',on_delete=models.CASCADE)
     course = models.ForeignKey(Course, verbose_name='课程',on_delete=models.CASCADE)
     comments = models.CharField(max_length=200, verbose_name='评论')
@@ -107,4 +106,20 @@ class Contact(models.Model):
 
     def __str__(self):
         return self.user.username
+
+
+class UserAct(models.Model):
+    '''活动报名'''
+    user = models.ForeignKey(UserProfile, verbose_name='用户', on_delete=models.CASCADE)
+    activity = models.ForeignKey(Preview,verbose_name='内容',on_delete=models.CASCADE)
+    add_time = models.DateTimeField(default=datetime.now, verbose_name='添加时间')
+
+    class Meta:
+        ordering = ['-add_time']
+        verbose_name = '活动报名'
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return self.user.username
+
 

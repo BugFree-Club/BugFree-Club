@@ -7,7 +7,7 @@ from django.contrib import admin
 from django.conf.urls import url,include
 from django.urls import path
 from extra_apps import xadmin
-from manage_site.views import IndexView,ApplicationView,ContactView
+from manage_site.views import IndexView,ApplicationView,ContactView,ActJoinView
 from django.conf.urls.static import static
 from . import settings
 #todo:全局404
@@ -16,6 +16,7 @@ urlpatterns = [
     url(r'^$', IndexView.as_view(), name='index'),
     url(r'^application/$', ApplicationView.as_view(), name='application'),
     url(r'^contact/$', ContactView.as_view(), name='contact'),
+    url(r'^act-join/(?P<act_id>\d+)/', ActJoinView.as_view(),name='act-join'),
     url('^users/', include('users.urls')),
     url(r'courses/', include('courses.urls')),
 ]
