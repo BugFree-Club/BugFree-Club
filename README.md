@@ -1,4 +1,4 @@
-#FITA	
+#BugFree Club
 
 为社团打造的网站
 
