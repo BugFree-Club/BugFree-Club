@@ -28,7 +28,7 @@ lxml==4.2.1
 odfpy==1.3.6
 openpyxl==2.5.4
 parsel==1.4.0
-Pillow==5.1.0
+Pillow==8.1.1
 pipreqs==0.4.9
 pyasn1==0.4.3
 pyasn1-modules==0.2.1
